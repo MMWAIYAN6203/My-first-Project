@@ -6,7 +6,7 @@
             <img class="object-fill w-full sm:h-[400px] md:h-[400px] lg:h-[550px]" src="/images/hero1.webp">
             <div class="flex flex-col gap-4 sm:w-[380px] lg:w-[600px] ">
                 <div class="sm:text-lg md:text-lg lg:text-3xl z-[1] sm:w-[300px] lg:w-[500px] sm:ms-[80px] md:ms-[120px] lg:ms-[100px] sm:mt-[-300px] md:mt-[-300px] xl:mt-[-400px]">"We warmly welcome you to work with us,for timly fast and reliable trading"</div>
-                <a class="btn1 m-auto xl:mt-[-20px]" href="/contactus"> Contact us </a>
+                <a class="btn1 m-auto xl:mt-[-7px]" href="/contactus"> Contact us </a>
             </div>
 
         </div>
@@ -15,16 +15,16 @@
             <img class="object-fill w-full sm:h-[400px] md:h-[400px] lg:h-[550px]" src="/images/hero2.jpg">
             <div class="flex flex-col gap-3 sm:w-[550px] lg:w-[850px] ">
                 <div class="sm:text-lg md:text-lg lg:text-3xl z-[1] sm:w-[550px] lg:w-[800px] sm:ms-[35px] md:ms-[70px] sm:mt-[-300px] md:mt-[-300px] xl:mt-[-140px]">"We invite you to work with ROSE IMPORT EXPORT COMPANY LIMITED, which always provides the best services"</div>
-                <a class="btn1 m-auto xl:mt-[-20px]" href="/contactus"> Contact us </a>
+                <a class="btn1 m-auto xl:mt-[-7px]" href="/contactus"> Contact us </a>
             </div>
         </div>
     </div>
     <!-- Blog Intro -->
     <div class="">
-        <h1 class="lg:ms-[] md:ms-[] sm:ms-[] my-8 text-gray-700 sm:text-4xl md:text-5xl lg:text-6xl text-center">
+        <h1 class="lg:ms-[] md:ms-[] sm:ms-[] my-8 text-[color:var(--nav-color)] sm:text-4xl md:text-5xl lg:text-6xl text-center">
             Recently Updated Blogs
         </h1>
-        <a class="btn1 xl:ms-[170vh]" href="/blog"> See All </a>
+        <a class="btn1 xl:ms-[170vh] z-[2]" href="/blog"> See All </a>
     </div>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <section class="hero-section">
@@ -62,7 +62,7 @@
 
     <!-- Service Intro -->
     <div>
-        <h1 class="mx-12 my-10 text-gray-700 sm:text-4xl md:text-5xl lg:text-6xl text-center">
+        <h1 class="mx-12 my-10 text-[color:var(--nav-color)] sm:text-4xl md:text-5xl lg:text-6xl text-center">
             Our Services
         </h1>
         <img class="object-fill w-full h-[480px]" src="/images/services.jpg" alt="">

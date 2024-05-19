@@ -1,7 +1,7 @@
 <x-navbar></x-navbar>
 <!-- title -->
 <div class="">
-    <h1 class="lg:ms-[] md:ms-[] sm:ms-[] my-8 text-gray-700 sm:text-4xl md:text-5xl lg:text-6xl text-center">
+    <h1 class="lg:ms-[] md:ms-[] sm:ms-[] my-8 text-[color:var(--nav-color)]ss sm:text-4xl md:text-5xl lg:text-6xl text-center">
         Recently Updated Blogs
     </h1>
 </div>

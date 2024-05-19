@@ -1,15 +1,4 @@
-// menu bars
-let bars = document.querySelector(".bars");
-let item = document.querySelector(".item");
-let overlay = document.querySelector(".overlay");
-bars.onclick = function () {
-  item.classList.add("!top-[10%]");
-  overlay.classList.add("!opacity-[0.5]", "!visible");
-};
-overlay.onclick = function () {
-  item.classList.remove("!top-[10%]");
-  overlay.classList.remove("!opacity-[0.5]", "!visible");
-};
+
 
 //hero section
 let slideIndex = 0;

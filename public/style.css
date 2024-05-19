@@ -1,6 +1,6 @@
 html,
 body {
-  position: relative;
+  position:relative;
 }
 
 body {
@@ -123,7 +123,7 @@ background-color: #717171;}
 /* see all button */
 .btn1 {
   text-align: center;
-  --color: #560bad;
+  --color: #131314;
   font-family: inherit;
   display: inline-block;
   width: 8em;
@@ -477,7 +477,7 @@ background-color: #717171;}
 
 .card4 {
   
-  background: #07182E;
+  background: #07182e;
   position: relative;
   display: flex;
   place-content: center;
@@ -564,7 +564,7 @@ background-color: #717171;}
   font-weight: 600;
   border: none;
   cursor: pointer;
-  background: linear-gradient(-45deg, #511272 0%, #fc3131 100% );
+  background: linear-gradient(-45deg, #78c3ec 0%, #0a3cff 100% );
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
@@ -576,7 +576,7 @@ background-color: #717171;}
   bottom: 0;
   width: 5px;
   height: 100%;
-  background: linear-gradient(-45deg, #511272 0%, #fc3131 100% );
+  background: linear-gradient(-45deg, #78c3ec 0%, #0a3cff 100% );
   z-index: -1;
   transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }
@@ -605,166 +605,82 @@ background-color: #717171;}
 }
 
 
-/* history card */
-.price-section {
-  color: #fff;
+/* social icon */
+
+.wrapper {
+  width: 20rem;
 }
-/* End basic CSS override */
-.price-table {
-  background-color: #152148;
-  border-radius: 16px;
-  max-width: 355px;
-  padding: 25px;
+
+.wrapper ul {
   display: flex;
-  flex-direction: column;
-  box-shadow: 0 15px 45px 0 rgba(0, 0, 0, 0.15);
-  position: relative;
-  background-image: linear-gradient(135deg, rgba(74, 222, 128, 0.15), rgba(29, 123, 219, 0.1) 20%, #152148 40%, #152148 100%);
-}
-
-.price-table:after {
-  content: "";
-  display: block;
-  top: -3px;
-  left: -3px;
-  bottom: -3px;
-  right: -3px;
-  z-index: -1;
-  position: absolute;
-  border-radius: 16px;
-  background-image: linear-gradient(135deg, #4ade80, #1d7bdb 40%, #293359 60%, #152148 100%);
-}
-
-.price-table .price {
-  font-size: 3rem;
-  line-height: 1;
-  font-weight: 700;
-  display: inline-flex;
-  align-self: center;
   align-items: center;
-  gap: 4px;
-  position: relative;
-  color: #fff;
+  justify-content: space-around;
 }
 
-.price-table .price small {
-  font-size: 1.25rem;
-  font-weight: 400;
-  position: absolute;
-  left: -1.5ch;
-}
 
-.price-table .title {
-  font-size: 1.25rem;
-  font-weight: 600;
-  line-height: 1.25;
-  text-align: center;
-  margin-top: 10px;
-  color: #fff;
-}
-
-.price-table .description {
-  font-size: 1rem;
-  text-align: center;
-  margin-top: 2px;
-}
-
-.features {
-  margin-top: 22px;
-}
-
-.feature {
-  position: relative;
-}
-
-.feature + .feature {
-  margin-top: 16px;
-}
-
-.feature summary {
-  display: inline-flex;
-  align-items: center;
-  list-style: none;
-}
-
-.feature summary::-webkit-details-marker {
-  display: none;
-}
-
-.feature[open] summary:after {
-  content: "";
-  display: block;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  position: fixed;
-  z-index: 50;
-}
-
-.feature[open] div {
-  -webkit-animation: scale 0.15s ease;
-  animation: scale 0.15s ease;
-}
-
-.feature .checkmark {
-  width: 24px;
-  height: 24px;
+.item .iconic {
+  width: 3rem;
+  height: 3rem;
+  background-color: #fff;
   border-radius: 50%;
-  background-color: #4ade80;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 12px;
+  text-decoration: none;
+  color: #000;
+  overflow: hidden;
+  border: 3px solid #fff;
+  position: relative;
 }
 
-.feature .checkmark svg {
-  width: 18px;
-  height: 18px;
-  color: #fff;
-}
-
-.feature .question-icon {
-  display: flex;
-  align-items: center;
-  margin-left: 6px;
-  cursor: pointer;
-}
-
-.feature .answer {
-  padding: 12px;
-  background-color: #111b40;
-  border-radius: 6px;
+.item .iconic::before {
+  content: "";
   position: absolute;
-  top: -12px;
-  z-index: 100;
-  transform: translatey(-100%) translatex(-50%);
-  transform-origin: bottom center;
-  width: 80%;
-  left: 50%;
-  border: 1px solid #293359;
-  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+  background: var(--bg);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  scale: 1 0;
+  transform-origin: bottom;
+  transition: scale 0.5s ease;
 }
 
-@-webkit-keyframes scale {
-  0% {
-    transform: translatey(-100%) translatex(-50%) scale(0);
-  }
-
-  100% {
-    transform: translatey(-100%) translatex(-50%) scale(1);
-  }
+.item:hover .iconic::before {
+  scale: 1 1;
 }
 
-@keyframes scale {
-  0% {
-    transform: translatey(-100%) translatex(-50%) scale(0);
-  }
-
-  100% {
-    transform: translatey(-100%) translatex(-50%) scale(1);
-  }
+.icon {
+  font-size: 21px;
+  color: #000;
+  transition: 0.5s ease;
+  z-index: 2;
 }
+
+.item .iconic:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.item .iconic:hover .fa-snapchat {
+  color: #000;
+}
+
+.item:nth-child(1) {
+  --bg: #0777E9;
+}
+
+.item:nth-child(2) {
+  --bg: #6b07dd;
+}
+
+.item:nth-child(3) {
+  --bg: #0dd706;
+}
+
+.item:nth-child(4) {
+  --bg: linear-gradient(to bottom right, #f9ce34, #ee2a7b, #6228d7);
+}
+
 
 
 

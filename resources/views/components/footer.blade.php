@@ -1,7 +1,7 @@
-<footer class="w-full lg:h-[220px] sm:h-[190px] bg-black text-white">
+<footer class="w-full lg:h-[220px] sm:h-[190px] bg-[color:var(--nav-color)] text-white">
     <div class="flex justify-around">
         <div class="flex flex-col gap-3">
-            <a class="text-2xl mt-[20px]" href="#">
+            <a class="text-4xl mt-[20px] text-[color:var(--logo-color)]" href="#">
                 <p>ROSE</p>
             </a>
 
@@ -10,24 +10,24 @@
                 <span><i class="fa-solid fa-phone me-3"></i>082-149-9251</span>
                 <span><i class="fa-regular fa-envelope me-3"></i>rose.imex.2023@gamil.com</span>
             </div>
-            <div class="flex gap-5 text-[12px] lg:text-[16px]">
-                <div class="hover:cursor-pointer hover:text-red-400">Home</div>
-                <div class="hover:cursor-pointer hover:text-red-400">About</div>
-                <div class="hover:cursor-pointer hover:text-red-400">Contact</div>
-                <div class="hover:cursor-pointer hover:text-red-400">Service</div>
-                <div class="hover:cursor-pointer hover:text-red-400">Blog</div>
-            </div>
+            <ul class="flex gap-5 text-[12px] xl:text-[16px]">
+                <li><a class="hover:[color:var(--hover-color)]" href="/">Home</a></li>
+                <li><a class="hover:[color:var(--hover-color)]" href="/blog">Blog</a></li>
+                <li><a class="hover:[color:var(--hover-color)]" href="/service">Services</a></li>
+                <li><a class="hover:[color:var(--hover-color)]" href="/aboutus">About</a></li>
+                <li><a class="hover:[color:var(--hover-color)]" href="/contactus">Contact</a></li>
+            </ul>
         </div>
-        <div class="sm:mt-[100px] lg:mt-[113px]">
+        <div class="xl:mt-[90px]">
 
-            <div class="sm:px-7 lg:ms-5 flex gap-[20px] text-white lg:text-[20px]">
-                <i class="fa-brands fa-square-facebook hover:cursor-pointer hover:text-red-400"></i>
-                <i class="fa-brands fa-viber hover:cursor-pointer hover:text-red-400"></i>
-                <i class="fa-brands fa-line hover:cursor-pointer hover:text-red-400"></i>
-                <i class="fa-brands fa-facebook-messenger hover:cursor-pointer hover:text-red-400"></i>
-            </div>
+            <ul class="xl:ms-[50px] flex gap-[20px] lg:text-[20px] wrapper">
+                <li class="item"><a class="iconic" href="#"><i class="icon fa-brands fa-facebook"></i></a></li>
+                <li class="item"><a class="iconic" href="#"><i class="icon fa-brands fa-viber"></i></a></li>
+                <li class="item"><a class="iconic" href="#"><i class="icon fa-brands fa-line"></i></a></li>
+                <li class="item"><a class="iconic" href="#"><i class="icon fa-brands fa-facebook-messenger"></i></a></li>
+            </ul>
             <br />
-            <div class="text-white text-[10px] lg:text-[14px]">
+            <div class="text-white text-center text-[10px] lg:text-[14px]">
                 © 2020 Rose. All rights reserved.
             </div>
         </div>

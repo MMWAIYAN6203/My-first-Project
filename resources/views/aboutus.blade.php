@@ -8,7 +8,7 @@
 
 <div class="">
   <img class="xl:w-full xl:h-[70vh] object-fill rounded-lg shadow-md shadow-black " src="/images/Import-Export-Code-Registration.jpg" alt="">
-  <h1 class="xl:text-7xl text-center my-[30px] font-semibold pb-[40px]"> About Us </h1>
+  <h1 class="xl:text-7xl text-center my-[30px] font-semibold pb-[40px] text-[color:var(--nav-color)]"> About Us </h1>
 </div>
 <div class="flex flex-row gap-[50px] justify-evenly">
   <div class="card5 w-[60vh]">
