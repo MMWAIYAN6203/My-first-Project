@@ -85,10 +85,13 @@
       transform 200ms linear;
   }
   
-  .card:hover .card__background{
+  .card:hover .card__background {
     transform: scale(1.05) translateZ(0);
   }
   
+  .card-grid:hover > .card:not(:hover) .card__content{
+    filter: brightness(0.5) saturate(0) contrast(1.2) blur(8px);
+  }
   .card-grid:hover > .card:not(:hover) .card__background{
     filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
   }
@@ -98,6 +101,10 @@
     padding: var(--spacing-l);
     position: absolute;
     top: 0;
+    trsnsform: scale(1) translateZ(0);
+    transition: 
+      filter 200ms linear,
+      transform 200ms linear;
   }
   
   .card__category{
