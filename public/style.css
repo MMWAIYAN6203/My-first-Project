@@ -126,8 +126,8 @@ background-color: #717171;}
   --color: #131314;
   font-family: inherit;
   display: inline-block;
-  width: 8em;
-  height: 2.6em;
+  width: 7em;
+  height: 2.5em;
   line-height: 2.5em;
   margin: 20px;
   position: relative;
@@ -320,7 +320,7 @@ background-color: #717171;}
 .content2 .para {
   z-index: 1;
   opacity: 1;
-  font-size: 18px;
+  
   transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
 }
 

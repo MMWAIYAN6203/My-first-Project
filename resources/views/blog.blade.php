@@ -8,7 +8,7 @@
 <!-- blog card design -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 
-<section class="hero-section">
+<section class="hero-section sm:mt-[-20px]">
     <div class="card-grid">
         <a class="card" href="/blog_detail">
             <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)"></div>
