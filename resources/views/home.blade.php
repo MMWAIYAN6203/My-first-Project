@@ -5,8 +5,8 @@
     <div class="mySlides fade">
         <img class="object-fill opacity-50 w-full sm:h-[400px] md:h-[400px] lg:h-[550px]" src="/images/hero1.webp">
         <div class="flex flex-col gap-4 sm:w-[380px] lg:w-[600px] ">
-            <div class="sm:text-lg md:text-lg lg:text-3xl z-[1] sm:w-[300px] lg:w-[500px] sm:ms-[80px] md:ms-[120px] lg:ms-[100px] sm:mt-[-300px] md:mt-[-300px] xl:mt-[-400px]">"We warmly welcome you to work with us,for timly fast and reliable trading"</div>
-            <a class="btn1 m-auto xl:mt-[-7px] sm:mt-[-10px] sm:ms-[160px]" href="/contactus"> Contact us </a>
+            <div class="sm:text-lg md:text-lg lg:text-3xl z-[1] sm:w-[300px] lg:w-[500px] sm:ms-[80px] md:ms-[120px] lg:ms-[100px] sm:mt-[-300px] md:mt-[-300px] xl:mt-[-400px] font-semibold">"We warmly welcome you to work with us,for timly fast and reliable trading"</div>
+            <a class="btn1 m-auto xl:mt-[-7px] lg:ms-[250px] sm:mt-[-10px] sm:ms-[160px]" href="/contactus"> Contact us </a>
         </div>
 
     </div>
@@ -14,8 +14,8 @@
     <div class="mySlides fade">
         <img class="object-fill opacity-50 w-full sm:h-[400px] md:h-[400px] lg:h-[550px]" src="/images/hero2.jpg">
         <div class="flex flex-col gap-3 sm:w-[550px] lg:w-[850px] ">
-            <div class="sm:text-lg md:text-lg lg:text-3xl z-[1] sm:w-[550px] lg:w-[800px] sm:ms-[35px] md:ms-[70px] sm:mt-[-300px] md:mt-[-300px] xl:mt-[-140px]">"We invite you to work with ROSE IMPORT EXPORT COMPANY LIMITED, which always provides the best services"</div>
-            <a class="btn1 m-auto xl:mt-[-7px] sm:mt-[-10px] " href="/contactus"> Contact us </a>
+            <div class="sm:text-lg md:text-lg lg:text-3xl z-[1] sm:w-[550px] lg:w-[800px] sm:ms-[35px] md:ms-[70px] sm:mt-[-300px] md:mt-[-300px] xl:mt-[-140px] font-semibold">"We invite you to work with ROSE IMPORT EXPORT COMPANY LIMITED, which always provides the best services"</div>
+            <a class="btn1 m-auto xl:mt-[-7px] sm:mt-[-10px] lg:mt-[-5px] " href="/contactus"> Contact us </a>
         </div>
     </div>
 </div>

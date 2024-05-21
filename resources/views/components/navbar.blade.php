@@ -35,8 +35,8 @@
     <header class="bg-[color:var(--nav-color)] h-[80px]">
         <nav class="flex justify-between items-center w-full xl:px-[40px] sm:px-[30px] md:px-[20px] py-[20px] mx-auto">
             <div>
-                <a href="#">
-                    <Span class="text-4xl text-[color:var(--logo-color)]">ROSE</Span>
+                <a href="/">
+                    <Span class="text-4xl text-[color:var(--logo-color)] font-semibold">ROSE</Span>
                 </a>
             </div>
             <div class="nav-links my duration-500 md:static fixed bg-[color:var(--nav-color)] z-[4] md:min-h-fit min-h-full left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
