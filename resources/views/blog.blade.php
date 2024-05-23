@@ -1,4 +1,7 @@
 <x-layout>
+    <x-slot:title>
+        Blog
+    </x-slot:title>
     <div class="">
         <h1
             class="lg:ms-[] md:ms-[] sm:ms-[] my-8 text-[color:var(--nav-color)]ss sm:text-4xl md:text-5xl lg:text-6xl text-center">

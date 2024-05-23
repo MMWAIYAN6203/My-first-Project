@@ -1,4 +1,7 @@
 <x-layout>
+    <x-slot:title>
+        Home
+    </x-slot:title>
     <!-- Hero Section -->
     <div class="relative z-[-1]">
 

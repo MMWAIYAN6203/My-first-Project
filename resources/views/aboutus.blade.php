@@ -1,4 +1,7 @@
 <x-layout>
+    <x-slot:title>
+        About Us
+    </x-slot:title>
     <div class="">
         <img class="xl:w-full xl:h-[70vh] object-fill rounded-lg shadow-md shadow-black "
             src="/images/Import-Export-Code-Registration.jpg" alt="">

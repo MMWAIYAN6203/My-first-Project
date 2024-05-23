@@ -1,5 +1,7 @@
 <x-layout>
-    <!-- title -->
+    <x-slot:title>
+        Services
+    </x-slot:title>
     <h1 class="xl:text-5xl lg:text-5xl md:text-4xl sm:text-3xl text-center my-[30px] font-semibold">Our Services</h1>
     <!-- Transit -->
     <div class="relative my-[20px] xl:ms-[30vh] lg:ms-[10vh] md:ms-[24vh] sm:ms-[17vh] xl:mb-[35vh]">

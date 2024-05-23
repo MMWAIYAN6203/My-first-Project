@@ -1,4 +1,7 @@
 <x-layout>
+    <x-slot:title>
+        Blog Detail
+    </x-slot:title>
     <div class="flex flex-col items-center">
         <h1 class="text-4xl font-semibold text-[color:var(--nav-color)] py-[40px]"> Effective Leadership: How to Inspire
             and Motivate Your Team </h1>

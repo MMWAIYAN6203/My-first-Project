@@ -1,4 +1,7 @@
 <x-layout>
+    <x-slot:title>
+        Contact Us
+    </x-slot:title>
     <div class="relative">
         <img class="absolute inset-0 z-[-2] w-full h-full" src="/images/herosection.jpg" alt="">
         <!-- title -->
