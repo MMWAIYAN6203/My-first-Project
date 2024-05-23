@@ -9,19 +9,24 @@
             class="nav-links my duration-500 md:static fixed bg-[color:var(--nav-color)] z-[4] md:min-h-fit min-h-full left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
             <ul class="text-white flex md:flex-row flex-col m-auto md:items-center md:gap-[4vw] gap-8 text-[20px]">
                 <li class="">
-                    <a class="hover:[color:var(--hover-color)]" href="/">Home</a>
+                    <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === '/' ? 'text-[var(--hover-color)]' : 'text-white' }}"
+                        href="/">Home</a>
                 </li>
                 <li class="">
-                    <a class="hover:[color:var(--hover-color)]" href="/blog">Blog</a>
+                    <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === 'blog' ? 'text-[var(--hover-color)]' : 'text-white' }}"
+                        href="/blog">Blog</a>
                 </li>
                 <li class="">
-                    <a class="hover:[color:var(--hover-color)]" href="/service">Services</a>
+                    <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === 'service' ? 'text-[var(--hover-color)]' : 'text-white' }}"
+                        href="/service">Services</a>
                 </li>
                 <li class="">
-                    <a class="hover:[color:var(--hover-color)]" href="aboutus">About</a>
+                    <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === 'aboutus' ? 'text-[var(--hover-color)]' : 'text-white' }}"
+                        href="aboutus">About</a>
                 </li>
                 <li class="">
-                    <a class="hover:[color:var(--hover-color)]" href="/contactus">Contact Us</a>
+                    <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === 'contactus' ? 'text-[var(--hover-color)]' : 'text-white' }}"
+                        href="/contactus">Contact Us</a>
                 </li>
             </ul>
         </div>

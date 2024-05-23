@@ -17,7 +17,7 @@ class EnsureLocalization
     {
         $locale = session()->get('locale');
         if (!$locale) {
-            app()->setLocale('en');
+            app()->setLocale('thai');
             session()->put('locale', 'thai');
         } else {
             app()->setLocale($locale);
