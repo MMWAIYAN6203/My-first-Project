@@ -1,6 +1,5 @@
 <header class="bg-[color:var(--nav-color)] h-[80px]">
     <nav class="flex justify-between items-center w-full xl:px-[40px] sm:px-[30px] md:px-[20px] py-[20px] mx-auto">
-
         <div>
             <a href="/">
                 <Span class="text-4xl text-[color:var(--logo-color)] font-semibold">ROSE</Span>
@@ -26,14 +25,12 @@
                 </li>
             </ul>
         </div>
-        <div class='flex items-center gap-11'>
-            <div class="flex items-center gap-6">
-                <i
-                    class="fa-solid fa-magnifying-glass text-black bg-[#6a85ee] p-[7px] mb-px rounded text-[14px] inline-block"></i>
-                <ion-icon onclick="onToggleMenu(this)" name="menu"
-                    class="text-3xl cursor-pointer md:hidden"></ion-icon>
-            </div>
-            <div id='localSelector' class="text-white relative py-5 px-7 rounded-lg bg-[#6A85EE] cursor-pointer">
+        <div class="flex items-center gap-6">
+            <i
+                class="fa-solid fa-magnifying-glass text-black bg-[#6a85ee] p-[7px] mb-px rounded text-[14px] inline-block"></i>
+            <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+            <div id='localSelector'
+                class="text-white relative md:py-5 md:px-7 py-4 px-5 rounded-lg bg-[#6A85EE] cursor-pointer">
                 <div class='flex items-center gap-4'>
                     <span class="select-none">Language</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -172,6 +169,7 @@
                 </div>
             </div>
         </div>
+
 </header>
 
 <script>
