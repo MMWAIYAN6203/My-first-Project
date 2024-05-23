@@ -12,11 +12,8 @@
                         Container service</h1>
                 </div>
                 <div class="content1 w-full">
-                    <p class="heading1 xl:text-[16px] lg:text-[14px] md:text-[12px] sm:text-[12px] pt-2">Cruise through
-                        seamless transit container services with us! Our comprehensive solutions ensure your cargo moves
-                        swiftly and securely from point A (where u want) to point B (where u want), whether it's a brief
-                        stopover or a multi-leg journey. With our expert handling and global network of partners, your
-                        shipments are in safe hands, ensuring timely delivery and peace of mind every step of the way.
+                    <p class="heading1 xl:text-[16px] lg:text-[14px] md:text-[12px] sm:text-[12px] pt-2">
+                        {{ __("Cruise through seamless transit container services with us! Our comprehensive solutions ensure your cargo moves swiftly and securely from point A (where u want) to point B (where u want), whether it's a brief stopover or a multi-leg journey. With our expert handling and global network of partners, your shipments are in safe hands, ensuring timely delivery and peace of mind every step of the way.") }}
                     </p>
                 </div>
             </div>
@@ -31,10 +28,9 @@
         <div>
             <h1 class="xl:text-2xl lg:text-2xl md:text-xl sm:text-xl mt-[80px] sm:mt-[25px] font-semibold">Custom
                 Clearance Service</h1>
-            <p class="xl:text-[18px] lg:text-[16px] md:text-[13px] sm:text-[12px] xl:w-[80vh] my-3  ">Leave the hassle
-                behind and entrust your cargo clearance to our seasoned professionals! Start your journey with us today,
-                and we'll promptly initiate the clearance process on your behalf. Our knowledgeable agents will guide
-                you through the necessary documentation needed to proceed smoothly.</p>
+            <p class="xl:text-[18px] lg:text-[16px] md:text-[13px] sm:text-[12px] xl:w-[80vh] my-3  ">
+                {{ __("Leave the hassle behind and entrust your cargo clearance to our seasoned professionals! Start your journey with us today, and we'll promptly initiate the clearance process on your behalf. Our knowledgeable agents will guide you through the necessary documentation needed to proceed smoothly.") }}
+            </p>
         </div>
     </div>
     <!-- Import/Export -->
@@ -44,10 +40,7 @@
                 <div class="content2 sm:w-[50vh] md:w-[50vh] lg:w-[55vh]">
                     <h1 class="xl:text-2xl lg:text-3xl md:text-2xl sm:text-xl font-semibold">Import Service !</h1>
                     <p class="para lg:text-[16px] md:text-[13px] sm:text-[12px]">
-                        Whether you're importing small parcels or full container loads, our dedicated team is equipped
-                        to handle your cargo needs seamlessly from origin to destination. No matter the size or
-                        complexity, trust our professionals to navigate the logistics process efficiently, ensuring your
-                        goods reach their destination hassle-free.
+                        {{ __("Whether you're importing small parcels or full container loads, our dedicated team is equipped to handle your cargo needs seamlessly from origin to destination. No matter the size or complexity, trust our professionals to navigate the logistics process efficiently, ensuring your goods reach their destination hassle-free.") }}
                     </p>
                 </div>
             </div>
@@ -55,12 +48,7 @@
                 <div class="content2 sm:w-[50vh] md:w-[50vh] lg:w-[55vh]">
                     <h1 class="xl:text-2xl lg:text-3xl md:text-2xl sm:text-xl font-semibold">Export Service !</h1>
                     <p class="para lg:text-[16px] md:text-[13px] sm:text-[12px]">
-                        Unlock the global marketplace with our tailored export services designed to elevate your
-                        business to new heights. From meticulous documentation to strategic logistics planning, we
-                        handle every aspect of your export journey with precision and care. Our experienced team ensures
-                        seamless operations, allowing you to focus on what you do best – growing your business. Whether
-                        you're shipping small parcels or large-scale cargo, trust us to deliver excellence every step of
-                        the way.
+                        {{ __("Unlock the global marketplace with our tailored export services designed to elevate your business to new heights. From meticulous documentation to strategic logistics planning, we handle every aspect of your export journey with precision and care. Our experienced team ensures seamless operations, allowing you to focus on what you do best – growing your business. Whether you're shipping small parcels or large-scale cargo, trust us to deliver excellence every step of the way.") }}
                     </p>
                 </div>
             </div>
@@ -80,11 +68,8 @@
                 Warehouse Service !</h1>
             <p
                 class="xl:text-[16px] lg:text-[14px] md:text-[12px] sm:text-[11px] xl:m-[20px] sm:p-[10px] text-center xl:w-[75vh] sm:w-[50vh] md:w-[55vh]">
-                Efficient warehouse services are crucial for a successful supply chain, providing secure storage,
-                inventory management, and seamless distribution. They optimize space, ensure timely order fulfillment,
-                and accurately track inventory, reducing costs and boosting customer satisfaction. Utilizing advanced
-                technologies like barcode scanning, RFID, and warehouse management systems (WMS), businesses achieve
-                higher accuracy and efficiency, ensuring products are always available and promptly delivered.</p>
+                {{ __('Efficient warehouse services are crucial for a successful supply chain, providing secure storage, inventory management, and seamless distribution. They optimize space, ensure timely order fulfillment, and accurately track inventory, reducing costs and boosting customer satisfaction. Utilizing advanced technologies like barcode scanning, RFID, and warehouse management systems (WMS), businesses achieve higher accuracy and efficiency, ensuring products are always available and promptly delivered.') }}
+            </p>
         </div>
     </div><br><br>
     <script src="/script.js"></script>

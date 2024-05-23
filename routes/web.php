@@ -1,32 +1,37 @@
 <?php
 
+use App\Helpers\Localization;
+use App\Http\Middleware\EnsureLocalization;
 use Illuminate\Support\Facades\Route;
-//http://127.0.0.1:8000
-Route::get('/', function () {
-    return view('home');
-});
 
-//http://127.0.0.1:8000/blog
-Route::get('/blog', function () {
-    return view('blog');
-});
 
-//http://127.0.0.1:8000/service
-Route::get('/service', function () {
-    return view('service');
-});
+Route::post('/localization', function () {
+    Localization::setLocale(request()->input('locale'));
+    return redirect()->route('home');
+})->name('localization');
 
-//http://127.0.0.1:8000/aboutus
-Route::get('/aboutus', function () {
-    return view('aboutus');
-});
+Route::middleware([EnsureLocalization::class])->group(function () {
+    Route::get('/', function () {
+        return view('home');
+    })->name('home');
 
-//http://127.0.0.1:8000/contactus
-Route::get('/contactus', function () {
-    return view('contactus');
-});
+    Route::get('/blog', function () {
+        return view('blog');
+    });
 
-//http://127.0.0.1:8000/blog_detail
-Route::get('/blog_detail', function () {
-    return view('blog_detail');
+    Route::get('/service', function () {
+        return view('service');
+    });
+
+    Route::get('/aboutus', function () {
+        return view('aboutus');
+    });
+
+    Route::get('/contactus', function () {
+        return view('contactus');
+    });
+
+    Route::get('/blog_detail', function () {
+        return view('blog_detail');
+    });
 });
