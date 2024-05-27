@@ -12,7 +12,7 @@
           <div class="font-semibold text-[9px] xl:text-xl md:text-lg w-[50%]">
             {{ __('We warmly welcome you to work with us,for timly fast and reliable trading') }}
           </div>
-          <a class="btn1 mt-[10px] xl:mt-[20px] text-[9px] lg:text-xl md:text-lg sm:text-sm w-[7em] h-[2em] pb-[22px] xl:pt-[5px] md:pt-[3px] " href="/contactus">Contact Us</a>
+          <a class="btn1 mt-[10px] xl:mt-[20px] text-[9px] lg:text-xl md:text-lg sm:text-sm  w-[7em] h-[2em] xl:w-[7em] xl:h-[3em] pb-[22px] xl:text-center md:pt-[3px] " href="/contactus">Contact Us</a>
         </div>
       </div>
       <div class="swiper-slide">
@@ -21,10 +21,8 @@
           <div class="font-semibold text-[9px] xl:text-xl md:text-lg w-[50%]">
             {{ __('We invite you to work with ROSE IMPORT EXPORT COMPANY LIMITED, which always provides the best services') }}
           </div>
-
-
+          <a class="btn1 mt-[10px] xl:mt-[20px] text-[9px] lg:text-xl md:text-lg sm:text-sm  w-[7em] h-[2em] xl:w-[7em] xl:h-[3em] pb-[22px] xl:txe-center md:pt-[3px] " href="/contactus">Contact Us</a>
         </div>
-        <a class="btn1  mt-[10px] xl:mt-[20px] text-[9px] lg:text-xl md:text-lg sm:text-sm w-[7em] h-[2em] pb-[22px] xl:pt-[5px] md:pt-[3px]  " href="/contactus">Contact Us</a>
       </div>
     </div>
     <div class="swiper-button-next"></div>
