@@ -5,7 +5,7 @@
     <div class="">
         <img class="absolute inset- z-[-2] w-full h-[175vh] lg:h-full xl:h-[105vh]" src="/images/herosection.jpg" alt="">
         <!-- title -->
-        <h1 class="text-xl xl:text-[32px] lg:text-[2.6rem] md:text-[2rem]  text-center py-[30px] font-semibold text-white"> Contact For Any Assist </h1>
+        <h1 class="text-xl xl:text-[32px] lg:text-[2.6rem] md:text-[2rem]  text-center py-[30px] font-semibold text-white"> {{__("Contact For Any Assist") }} </h1>
         <div class="flex flex-col items-center  gap-5 mb-[50px] lg:flex lg:flex-row lg:justify-evenly lg:gap-5 mt-[50px]">
             <!-- address box -->
             <div class="e-card bg-white relative playing  w-[350px] h-[65vh] lg:w-[380px] lg:h-[59vh] xl:w-[50vh] xl:h-[65vh]">
@@ -15,12 +15,12 @@
                 <div class="wave"></div>
                 <div class="absolute z-[3] ">
                     <div class="w-full py-4">
-                        <h1 class="text-lg xl:text-2xl lg:text-2xl md:text-xl text-center font-semibold text-white ">Our Address</h1><br>
+                        <h1 class="text-lg xl:text-2xl lg:text-2xl md:text-xl text-center font-semibold text-white ">{{__("Our Address") }}</h1><br>
                         <div class="flex flex-col gap-1 text-[12px] lg:text-[16px] xl:text-[16px] ms-[35px] xl:ms-[30px] lg:ms-[25px]">
-                            <span><i class="fa-solid fa-location-dot me-3"></i>1/53 Buacoon Road, Mae Sot District,</span>
-                            <span class="ms-[24px]">Tak 63110 Thailand</span>
+                            <span><i class="fa-solid fa-location-dot me-3"></i>{{ __("1/53 Buakoon Road, Mae Sot District,") }}</span>
+                            <span class="ms-[24px]">{{ __("Tak 63110 Thailand") }}</span>
                             <span><i class="fa-solid fa-phone me-3"></i>082-149-9251</span>
-                            <span><i class="fa-regular fa-envelope me-3"></i>rose.imex.2023@gamil.com</span>
+                            <span><i class="fa-regular fa-envelope me-3"></i>rose.imex.2023@gmail.com</span>
                         </div>
                     </div>
                     <iframe class="w-[300px] h-[220px] xl:w-[320px] xl:h-[260px] mx-[25px] lg:w-[320px] lg:h-[280px] rounded-md shadow-lg shadow-slate-700 xl:ms-[25px] lg:ms-[30px]" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d238.83719213218!2d98.56646962090396!3d16.707127957765767!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30dd9f80d29339af%3A0xa29807245b60be4f!2sROSE%20IMPORT%20EXPORT%20CO.%2C%20LTD.!5e0!3m2!1sen!2sth!4v1715328899517!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -31,41 +31,41 @@
                 <div class=" max-w-md space-y-8">
                     <div class="bg-[color:var(--nav-color)] text-white shadow-md w-[350px] lg:w-[380px] xl:w-[420px] rounded-lg p-6">
                         <h2 class="my-3 text-center text-lg xl:text-2xl lg:text-2xl md:text-xl font-semibold tracking-tight ">
-                            Get In Touch With Us
+                            {{__("Get In Touch With Us") }}
                         </h2>
 
                         <form class="space-y-6" method="POST">
                             <div>
-                                <label for="new-password" class="block text-[13px] xl:text-lg lg:text-[16px] md:text-[12px] sm:text-[12px] font-medium ">Your Name</label>
+                                <label for="new-password" class="block text-[13px] xl:text-lg lg:text-[16px] md:text-[12px] sm:text-[12px] font-medium ">{{__("Your Name") }}</label>
                                 <div class="mt-1">
-                                    <input placeholder="Type Your Name" required class="input text-black bg-gray-200 p-1 w-[100%] rounded-md focus:border-none focus:outline-none" />
+                                    <input placeholder="{{ __("Type Your Name") }}" required class="input text-black bg-gray-200 p-1 w-[100%] rounded-md focus:border-none focus:outline-none" />
                                 </div>
                             </div>
 
                             <div>
-                                <label class="block text-[13px] xl:text-lg lg:text-[16px] md:text-[12px] sm:text-[12px] font-medium ">Your Gmail</label>
+                                <label class="block text-[13px] xl:text-lg lg:text-[16px] md:text-[12px] sm:text-[12px] font-medium ">{{__("Your Gmail") }}</label>
                                 <div class="mt-1">
-                                    <input placeholder="Type Your Gmail" class="input text-black bg-gray-200 p-1 w-[100%] rounded-md focus:border-none focus:outline-none" />
+                                    <input placeholder="{{ __("Type Your Gmail") }}" class="input text-black bg-gray-200 p-1 w-[100%] rounded-md focus:border-none focus:outline-none" />
                                 </div>
                             </div>
 
                             <div>
-                                <label class="block text-[13px] xl:text-lg lg:text-[16px] md:text-[12px] sm:text-[12px] font-medium ">Your Phone</label>
+                                <label class="block text-[13px] xl:text-lg lg:text-[16px] md:text-[12px] sm:text-[12px] font-medium ">{{__("Your Phone") }}</label>
                                 <div class="mt-1">
-                                    <input placeholder="Type Your Number" class="input text-black bg-gray-200 p-1 w-[100%] rounded-md focus:border-none focus:outline-none" />
+                                    <input placeholder="{{ __("Type Your Number") }}" class="input text-black bg-gray-200 p-1 w-[100%] rounded-md focus:border-none focus:outline-none" />
                                 </div>
                             </div>
 
                             <div>
-                                <label for="" class="block text-[13px] xl:text-lg lg:text-[16px] md:text-[12px] sm:text-[12px] font-medium ">Write a message</label>
+                                <label for="" class="block text-[13px] xl:text-lg lg:text-[16px] md:text-[12px] sm:text-[12px] font-medium ">{{__("Write a Message") }}</label>
                                 <div class="mt-1">
-                                    <input placeholder="Type a message" class="input text-black bg-gray-200 p-1 w-[100%] rounded-md focus:border-none focus:outline-none" />
+                                    <input placeholder="{{ __("Type a message") }}" class="input text-black bg-gray-200 p-1 w-[100%] rounded-md focus:border-none focus:outline-none" />
                                 </div>
                             </div>
 
                             <div>
                                 <button type="submit" class="flex w-full justify-center rounded-md border border-transparent bg-sky-400 py-2 px-4 text-[13px] xl:text-lg lg:text-[16px] md:text-[12px] sm:text-[12px] font-medium text-white shadow-sm hover:bg-opacity-75 focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2">
-                                    Send Message
+                                {{__("Send Message") }}
                                 </button>
                             </div>
                         </form>

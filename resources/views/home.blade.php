@@ -12,7 +12,7 @@
           <div class="font-semibold text-[9px] xl:text-xl md:text-lg w-[50%]">
             {{ __('We warmly welcome you to work with us,for timly fast and reliable trading') }}
           </div>
-          <a class="btn1 font-semibold mt-[10px] xl:mt-[20px] text-[9px] lg:text-xl md:text-lg sm:text-sm  w-[7.2em] h-[2em] xl:w-[7em] xl:h-[2em] lg:w-[6em] lg:h-[2em] lg:pt-[4px] md:w-[6em] md:h-[1em] md:pb-[33px] pt-[1px] xl:text-center md:pt-[3px] " href="/contactus">Contact Us</a>
+          <a class="btn1 font-semibold mt-[10px] xl:mt-[20px] text-[9px] lg:text-xl md:text-lg sm:text-sm  w-[7.2em] h-[2em] xl:w-[7em] xl:h-[2em] lg:w-[6em] lg:h-[2em] lg:pt-[4px] md:w-[6em] md:h-[1em] md:pb-[33px] pt-[1px] xl:text-center md:pt-[3px] " href="/contactus">{{__("Contact Us") }}</a>
         </div>
       </div>
       <div class="swiper-slide">
@@ -21,7 +21,7 @@
           <div class="font-semibold text-[9px] xl:text-xl md:text-lg w-[50%]">
             {{ __('We invite you to work with ROSE IMPORT EXPORT COMPANY LIMITED, which always provides the best services') }}
           </div>
-          <a class="btn1 font-semibold mt-[10px] xl:mt-[20px] text-[8px] lg:text-xl md:text-lg sm:text-sm  w-[7.2em] h-[2em] xl:w-[7em] xl:h-[2em] lg:w-[6em] lg:h-[2em] lg:pt-[4px] md:w-[6em] md:h-[1em] md:pb-[33px] pt-[1px] xl:txe-center md:pt-[3px] " href="/contactus">Contact Us</a>
+          <a class="btn1 font-semibold mt-[10px] xl:mt-[20px] text-[8px] lg:text-xl md:text-lg sm:text-sm  w-[7.2em] h-[2em] xl:w-[7em] xl:h-[2em] lg:w-[6em] lg:h-[2em] lg:pt-[4px] md:w-[6em] md:h-[1em] md:pb-[33px] pt-[1px] xl:txe-center md:pt-[3px] " href="/contactus">{{ __("Contact Us") }}</a>
         </div>
       </div>
     </div>
@@ -33,7 +33,7 @@
   <!-- Blog Intro -->
   <div class="">
     <h1 class="text-xl my-8 font-semibold text-[color:var(--nav-color)] sm:text-4xl md:text-2xl lg:text-[36px] text-center">
-      Recently Updated Blogs
+      {{__("Recently Updated Blogs") }}
     </h1>
   </div>
 
@@ -67,13 +67,13 @@
         </a>
         <div>
     </section>
-    <a class="btn1 font-semibold float-right me-[20px] xl:float-right xl:me-[20px] text-[10px]  md:text-[14px] lg:text-lg w-[5.5em] h-[2em] pt-[2px] lg:w-[5em] lg:h-[2em] lg:pt-[px] xl:w-[5em] xl:h-[2em] xl:pt-[2px]" href="/blog"> See All </a>
+    <a class="btn1 font-semibold float-right me-[20px] xl:float-right xl:me-[20px] text-[10px]  md:text-[14px] lg:text-lg w-[5.5em] h-[2em] pt-[2px] lg:w-[5em] lg:h-[2em] lg:pt-[px] xl:w-[5em] xl:h-[2em] xl:pt-[2px]" href="/blog"> {{__("See All") }} </a>
   </div>
 
   <!-- Service Intro -->
   <div>
     <h1 class="mx-12 py-8 md:mt-[50px] mt-[50px] xl:mt-[50px] lg:mt-[100px] font-semibold text-[color:var(--nav-color)] text-xl sm:text-4xl md:text-2xl lg:text-[36px] text-center">
-      Our Services
+    {{__("Our Services") }}
     </h1>
     <a href="/service"><img class="object-fill m-auto xl:h-[480px] sm:h-[300px] md:h-[380px]" src="/images/services.png" alt="service-image"></a>
   </div>
@@ -85,13 +85,13 @@
   <div class="flex flex-row gap-2 lg:gap-4 sm:gap-3 sm w-full justify-center lg:text-lg">
     <div class="flex flex-col items-center lg:mt-[25px] md:mt-[25px] mt-[32px] xl:mt-[30px] w-[200px] sm:w-[300px] lg:w-[400px] lg:mt-[100px]">
       <h1 class="md:text-2xl xl:text-4xl text-center sm:py-3 text-[color:var(--nav-color)] font-semibold">
-        About ROSE
+        {{__("About ROSE") }}
       </h1>
       <p class="xl:text-lg text-[10px] md:text-[14px] lg:text-lg">{{ __("We are Rose Import Export Co.,Ltd who deliver your goods from Thailand's airports and seaports to their destination quickly and without damage.") }}</p>
       
-      <a class="btn1 mt-[10px] lg:mt-[-10px] md:mt-[5px] xl:mt-[15px] xl:h-[2em] lg:text-xl md:text-lg text-[10px] md:text-[14px] w-[7em] h-[2em] xl:pb-[0px] pt-[1px] lg:w-[6em] lg:h-[2em] lg:pt-[3px] md:w-[7em] md:h-[2em] md:pt-[2px] sm:w-[7em] sm:h-[2em] sm:p-[2px]" href="/aboutus"> Read More </a>
+      <a class="btn1 mt-[10px] lg:mt-[-10px] md:mt-[5px] xl:mt-[15px] xl:h-[2em] lg:text-xl md:text-lg text-[10px] md:text-[14px] w-[7em] h-[2em] xl:pb-[0px] pt-[1px] lg:w-[6em] lg:h-[2em] lg:pt-[3px] md:w-[7em] md:h-[2em] md:pt-[2px] sm:w-[7em] sm:h-[2em] sm:p-[2px]" href="/aboutus"> {{ __("Read More") }} </a>
     </div>
-    <img class="object-fill xl:w-[400px] w-[150px] sm:w-[250px] sm:h-[300px] py-[30px]" src="/images/Rose PF.jpg" alt="">
+    <img class="object-fill xl:w-[400px] w-[150px] sm:w-[250px] sm:h-[300px] py-[30px]" src="/images/Rose logo.jpg" alt="">
   </div>
 
 

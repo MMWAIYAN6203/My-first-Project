@@ -37,35 +37,42 @@
         <nav class="flex justify-between items-center w-full xl:px-[40px] sm:px-[30px] md:px-[20px] py-[14px] px-[10px] mx-auto">
             <div>
                 <a href="/">
-                    <img class="object-fill rounded-full w-[70px] h-[70px]" src="/images/Rose PF.jpg" alt="">
+                    <img class="object-fill rounded-full w-[70px] h-[70px]" src="/images/Rose logo.jpg" alt="">
                 </a>
             </div>
             <div class="nav-links my duration-500 md:static fixed bg-[color:var(--nav-color)] z-[4] md:min-h-fit min-h-full left-0 top-[-120%] md:w-auto  w-full flex items-center px-5">
                 <ul class="text-white flex md:flex-row flex-col m-auto md:items-center md:gap-[4vw] gap-5 text-[18px] mt-[120px] md:mt-[0px] lg:mt-[0px] xl:mt-[0px] xl:text-[25px]">
+
                     <li class="">
-                        <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === '/' ? 'text-[var(--hover-color)]' : 'text-white' }}" href="/">Home</a>
+                        <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === '/' ? 'text-[var(--hover-color)]' : 'text-white' }}" href="/">{{__("Home") }}</a>
                     </li>
                     <li class="">
-                        <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === 'blog' ? 'text-[var(--hover-color)]' : 'text-white' }}" href="/blog">Blog</a>
+                        <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === 'blog' ? 'text-[var(--hover-color)]' : 'text-white' }}" href="/blog">{{__("Blog") }}</a>
+                    </li>
+                    {{-- <li class="">
+                        <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === 'team' ? 'text-[var(--hover-color)]' : 'text-white' }}"
+                    href="/team">Team</a>
+                    </li> --}}
+                    <li class="">
+                        <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === 'service' ? 'text-[var(--hover-color)]' : 'text-white' }}" href="/service">{{__("Services") }}</a>
                     </li>
                     <li class="">
-                        <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === 'service' ? 'text-[var(--hover-color)]' : 'text-white' }}" href="/service">Services</a>
+                        <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === 'aboutus' ? 'text-[var(--hover-color)]' : 'text-white' }}" href="aboutus">{{__("About") }}</a>
                     </li>
                     <li class="">
-                        <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === 'aboutus' ? 'text-[var(--hover-color)]' : 'text-white' }}" href="aboutus">About</a>
-                    </li>
-                    <li class="">
-                        <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === 'contactus' ? 'text-[var(--hover-color)]' : 'text-white' }}" href="/contactus">Contact Us</a>
+                        <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === 'contactus' ? 'text-[var(--hover-color)]' : 'text-white' }}" href="/contactus">{{__("Contact Us") }}</a>
                     </li>
                 </ul>
             </div>
+
             <div class="flex items-center gap-[15px]">
                 <div id='localSelector' class="text-white relative md:py-5 md:px-7 py-4 px-5 rounded-lg bg-[color:var(--nav-color)] cursor-pointer">
                     <div class='flex flex-row items-center gap-4'>
-                        <span class="select-none">Language</span>
+                        <span class="select-none">{{__("Language") }}</span>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                         </svg>
+
                         <div id='localList' class="text-white absolute z-[5] top-[103%] left-0 bg-[#07182E] w-full hidden">
                             <form action="{{ route('localization') }}" method="POST" class="">
                                 @csrf
@@ -148,10 +155,13 @@
                                 </div>
                             </form>
                         </div>
+
                     </div>
 
                 </div>
+
                 <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl text-white cursor-pointer md:hidden"></ion-icon>
+
             </div>
 
         </nav>
