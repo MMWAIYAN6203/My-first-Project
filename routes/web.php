@@ -1,6 +1,7 @@
 <?php
 
 use App\Helpers\Localization;
+use App\Http\Controllers\BlogController;
 use App\Http\Middleware\EnsureLocalization;
 use Illuminate\Support\Facades\Route;
 
@@ -15,9 +16,8 @@ Route::middleware([EnsureLocalization::class])->group(function () {
         return view('home');
     })->name('home');
 
-    Route::get('/blog', function () {
-        return view('blog');
-    });
+    Route::get('/blog', [BlogController::class, 'index']);
+    Route::get('/blog/{blog}', [BlogController::class, 'show'])->name('blog.detail');
 
     Route::get('/service', function () {
         return view('service');
@@ -29,9 +29,5 @@ Route::middleware([EnsureLocalization::class])->group(function () {
 
     Route::get('/contactus', function () {
         return view('contactus');
-    });
-
-    Route::get('/blog_detail', function () {
-        return view('blog_detail');
     });
 });
