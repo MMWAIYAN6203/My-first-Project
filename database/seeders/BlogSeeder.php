@@ -8,11 +8,8 @@ use Illuminate\Database\Seeder;
 
 class BlogSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
-        Blog::factory(100)->create();
+        Blog::factory(3)->create();
     }
 }

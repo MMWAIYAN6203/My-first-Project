@@ -54,6 +54,10 @@
                         <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === 'blog' ? 'text-[var(--hover-color)]' : 'text-white' }}"
                             href="/blog">Blog</a>
                     </li>
+                    {{-- <li class="">
+                        <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === 'team' ? 'text-[var(--hover-color)]' : 'text-white' }}"
+                            href="/team">Team</a>
+                    </li> --}}
                     <li class="">
                         <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === 'service' ? 'text-[var(--hover-color)]' : 'text-white' }}"
                             href="/service">Services</a>
