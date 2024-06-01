@@ -16,7 +16,7 @@
             <div class="card-grid">
                 @forelse ($blogs as $blog)
                     <a class="card" href="{{ route('blog.detail', ['blog' => $blog->id]) }}">
-                        <div class="card__background" style="background-image: url({{ $blog->photo }})">
+                        <div class="card__background" style="background-image: url({{ asset("storage/$blog->photo") }})">
                         </div>
                         <div class="card__content">
                             {{-- <p class="card__category">Category</p> --}}
