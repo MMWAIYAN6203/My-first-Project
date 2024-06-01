@@ -17,21 +17,21 @@ Route::middleware([EnsureLocalization::class])->group(function () {
 
     Route::get('/blog', function () {
         return view('blog');
-    });
+    })->name('blog');
 
     Route::get('/service', function () {
         return view('service');
-    });
+    })->name('service');
 
     Route::get('/aboutus', function () {
         return view('aboutus');
-    });
+    })->name('aboutus');
 
     Route::get('/contactus', function () {
         return view('contactus');
-    });
+    })->name('contactus');
 
     Route::get('/blog_detail', function () {
         return view('blog_detail');
-    });
+    })->name('blog_detail');
 });

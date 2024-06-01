@@ -12,16 +12,16 @@
           <div class="font-semibold text-[9px] xl:text-xl md:text-lg w-[50%]">
             {{ __('We warmly welcome you to work with us,for timly fast and reliable trading') }}
           </div>
-          <a class="btn1 mt-[10px] xl:mt-[20px] text-[9px] lg:text-xl md:text-lg sm:text-sm  w-[7em] h-[2em] xl:w-[7em] xl:h-[3em] pb-[22px] xl:text-center md:pt-[3px] " href="/contactus">Contact Us</a>
+          <a class="btn1 font-semibold mt-[10px] xl:mt-[20px] text-[9px] lg:text-xl md:text-lg sm:text-sm  w-[7.2em] h-[2em] xl:w-[7em] xl:h-[2em] lg:w-[6em] lg:h-[2em] lg:pt-[4px] md:w-[6em] md:h-[1em] md:pb-[33px] pt-[1px] xl:text-center md:pt-[3px] " href="/contactus">Contact Us</a>
         </div>
       </div>
       <div class="swiper-slide">
-        <img class="object-fill opacity-65 w-full sm:h-[400px] md:h-[400px] lg:h-[550px]" src="./images/hero2.jpg" />
+        <img class="object-fill opacity-70 w-full sm:h-[400px] md:h-[400px] lg:h-[550px]" src="./images/hero2.jpg" />
         <div class="flex flex-col items-center absolute inset-0 mt-[80px] md:mt-[160px] lg:mt-[200px] xl:mt-[220px]">
           <div class="font-semibold text-[9px] xl:text-xl md:text-lg w-[50%]">
             {{ __('We invite you to work with ROSE IMPORT EXPORT COMPANY LIMITED, which always provides the best services') }}
           </div>
-          <a class="btn1 mt-[10px] xl:mt-[20px] text-[9px] lg:text-xl md:text-lg sm:text-sm  w-[7em] h-[2em] xl:w-[7em] xl:h-[3em] pb-[22px] xl:txe-center md:pt-[3px] " href="/contactus">Contact Us</a>
+          <a class="btn1 font-semibold mt-[10px] xl:mt-[20px] text-[8px] lg:text-xl md:text-lg sm:text-sm  w-[7.2em] h-[2em] xl:w-[7em] xl:h-[2em] lg:w-[6em] lg:h-[2em] lg:pt-[4px] md:w-[6em] md:h-[1em] md:pb-[33px] pt-[1px] xl:txe-center md:pt-[3px] " href="/contactus">Contact Us</a>
         </div>
       </div>
     </div>
@@ -42,32 +42,32 @@
     <section class="hero-section">
       <div class="card-grid">
         <a class="card" href="/blog_detail">
-          <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)"></div>
+          <div class="card__background" style="background-image: url(/blog-images/business_networking.jpg)"></div>
           <div class="card__content">
             <h3 class="card__heading mt-[50px] w-full">Example Card Heading</h3>
           </div>
         </a>
         <a class="card" href="/blog_detail">
-          <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557187666-4fd70cf76254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+          <div class="card__background" style="background-image: url(/blog-images/balance-life.jpg)"></div>
           <div class="card__content">
             <h3 class="card__heading mt-[50px] w-full">Example Card Heading</h3>
           </div>
         </a>
         <a class="card" href="/blog_detail">
-          <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+          <div class="card__background" style="background-image: url(/blog-images/essential-for-IT.png)"></div>
           <div class="card__content">
             <h3 class="card__heading mt-[50px] w-full">Example Card Heading</h3>
           </div>
         </a>
         <a class="card" href="/blog_detail">
-          <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+          <div class="card__background" style="background-image: url(/blog-images/financial.jpg"></div>
           <div class="card__content">
             <h3 class="card__heading mt-[50px] w-full">Example Card Heading</h3>
           </div>
         </a>
         <div>
     </section>
-    <a class="btn1 float-right me-[20px] xl:float-right xl:me-[20px] text-[10px] pb-[25px] md:text-[14px] lg:text-lg w-[5.3em] h-[1em] lg:w-[5em] lg:h-[2em] lg:pt-[4px] md:w-[5em] md:h-[1em] md:pb-[33px]" href="/blog"> See All </a>
+    <a class="btn1 font-semibold float-right me-[20px] xl:float-right xl:me-[20px] text-[10px]  md:text-[14px] lg:text-lg w-[5.5em] h-[2em] pt-[2px] lg:w-[5em] lg:h-[2em] lg:pt-[px] xl:w-[5em] xl:h-[2em] xl:pt-[2px]" href="/blog"> See All </a>
   </div>
 
   <!-- Service Intro -->
@@ -88,10 +88,10 @@
         About ROSE
       </h1>
       <p class="xl:text-lg text-[10px] md:text-[14px] lg:text-lg">{{ __("We are Rose Import Export Co.,Ltd who deliver your goods from Thailand's airports and seaports to their destination quickly and without damage.") }}</p>
-      <br>
-      <a class="btn1 mt-[-10px] lg:mt-[-10px] md:mt-[5px] xl:mt-[-18px] lg:text-xl md:text-lg text-[10px] md:text-[14px] w-[7em] h-[2em] pb-[24px] lg:w-[6em] lg:h-[2em] lg:pt-[3px] md:w-[7em] md:h-[2em] md:pt-[2px] sm:w-[7em] sm:h-[2em] sm:p-[2px]" href="/aboutus"> Read More </a>
+      
+      <a class="btn1 mt-[10px] lg:mt-[-10px] md:mt-[5px] xl:mt-[15px] xl:h-[2em] lg:text-xl md:text-lg text-[10px] md:text-[14px] w-[7em] h-[2em] xl:pb-[0px] pt-[1px] lg:w-[6em] lg:h-[2em] lg:pt-[3px] md:w-[7em] md:h-[2em] md:pt-[2px] sm:w-[7em] sm:h-[2em] sm:p-[2px]" href="/aboutus"> Read More </a>
     </div>
-    <img class="object-fill xl:w-[400px] w-[150px] sm:w-[250px] sm:h-[300px] py-[30px]" src="/images/Rose Pf1.jpg" alt="">
+    <img class="object-fill xl:w-[400px] w-[150px] sm:w-[250px] sm:h-[300px] py-[30px]" src="/images/Rose PF.jpg" alt="">
   </div>
 
 

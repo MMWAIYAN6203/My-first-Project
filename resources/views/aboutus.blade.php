@@ -3,7 +3,7 @@
       About Us
     </x-slot:title>
     <div class="">
-      <img class="xl:w-full xl:h-[70vh] object-fill rounded-lg shadow-md shadow-black " src="/images/Import-Export-Code-Registration.jpg" alt="">
+      <img class="xl:w-full xl:h-[70vh] object-fill rounded-lg shadow-md shadow-black " src="/images/Logistic1.jpg" alt="">
       <h1 class="text-xl xl:text-7xl lg:text-[2.6rem] md:text-[2rem] sm:text-3xl text-center my-[30px] font-semibold pb-[40px] text-[color:var(--nav-color)]"> About Us </h1>
     </div>
     <div class="flex flex-row gap-[15px] md:gap-[20px] lg:gap-[20px] xl:gap-[20px]  justify-evenly">

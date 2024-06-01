@@ -32,7 +32,7 @@
     <div class="flex flex-row justify-evenly">
         <div class="flex flex-col gap-[60px] my-[50px] md:my-[60px] lg:my-[60px] xl:my-[60px]">
             <div class="card2 w-[28vh] h-[35vh] sm:w-[50vh] md:w-[50vh] md:h-[42vh] lg:w-[55vh] lg:h-[40vh] xl:w-[65vh] xl:h-[55vh] ">
-                <div class="content2 p-[20px] sm:p-[30px] md:p-[20px] lg:p-[25px] xl:p-[36px] w-full h-full">
+                <div class="content2 p-[20px] text-black sm:p-[30px] md:p-[20px] lg:p-[25px] xl:p-[36px] w-full h-full">
                     <h1 class="text-md xl:text-2xl lg:text-2xl md:text-xl sm:text-xl font-semibold">Import Service !</h1>
                     <p class="para mt-[-10px] leading-4 xl:leading-9 lg:leading-8 md:leading-6 text-[8px] xl:text-lg lg:text-lg md:text-[12px] sm:text-[12px]">
                         {{ __("Whether you're importing small parcels or full container loads, our dedicated team is equipped to handle your cargo needs seamlessly from origin to destination. No matter the size or complexity, trust our professionals to navigate the logistics process efficiently, ensuring your goods reach their destination hassle-free.") }}
@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class="card2 w-[28vh] h-[50vh] sm:w-[50vh] sm:h-[50vh] md:w-[50vh] md:h-[54vh] lg:w-[55vh] lg:h-[48vh] xl:w-[65vh] xl:h-[75vh]">
-                <div class="content2 p-[20px] sm:p-[30px] md:p-[20px] lg:p-[25px] xl:p-[36px] w-full h-full">
+                <div class="content2 p-[20px] text-black sm:p-[30px] md:p-[20px] lg:p-[25px] xl:p-[36px] w-full h-full">
                     <h1 class="text-md xl:text-2xl lg:text-2xl md:text-xl sm:text-xl font-semibold">Export Service !</h1>
                     <p class="para mt-[-10px] leading-4 xl:leading-9 lg:leading-8 md:leading-6 text-[8px] xl:text-lg lg:text-[16px] md:text-[12px] sm:text-[12px]">
                         {{ __("Unlock the global marketplace with our tailored export services designed to elevate your business to new heights. From meticulous documentation to strategic logistics planning, we handle every aspect of your export journey with precision and care. Our experienced team ensures seamless operations, allowing you to focus on what you do best – growing your business. Whether you're shipping small parcels or large-scale cargo, trust us to deliver excellence every step of the way.") }}

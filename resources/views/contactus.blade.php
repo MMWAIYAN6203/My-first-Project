@@ -3,7 +3,7 @@
         Contact Us
     </x-slot:title>
     <div class="">
-        <img class="absolute inset- z-[-2] w-full h-[175vh] lg:h-full xl:h-full" src="/images/herosection.jpg" alt="">
+        <img class="absolute inset- z-[-2] w-full h-[175vh] lg:h-full xl:h-[105vh]" src="/images/herosection.jpg" alt="">
         <!-- title -->
         <h1 class="text-xl xl:text-[32px] lg:text-[2.6rem] md:text-[2rem]  text-center py-[30px] font-semibold text-white"> Contact For Any Assist </h1>
         <div class="flex flex-col items-center  gap-5 mb-[50px] lg:flex lg:flex-row lg:justify-evenly lg:gap-5 mt-[50px]">
@@ -16,14 +16,14 @@
                 <div class="absolute z-[3] ">
                     <div class="w-full py-4">
                         <h1 class="text-lg xl:text-2xl lg:text-2xl md:text-xl text-center font-semibold text-white ">Our Address</h1><br>
-                        <div class="flex flex-col gap-1 text-[12px] lg:text-[16px] xl:text-[16px] ms-[35px] xl:ms-[20px] lg:ms-[25px]">
+                        <div class="flex flex-col gap-1 text-[12px] lg:text-[16px] xl:text-[16px] ms-[35px] xl:ms-[30px] lg:ms-[25px]">
                             <span><i class="fa-solid fa-location-dot me-3"></i>1/53 Buacoon Road, Mae Sot District,</span>
                             <span class="ms-[24px]">Tak 63110 Thailand</span>
                             <span><i class="fa-solid fa-phone me-3"></i>082-149-9251</span>
                             <span><i class="fa-regular fa-envelope me-3"></i>rose.imex.2023@gamil.com</span>
                         </div>
                     </div>
-                    <iframe class="w-[300px] h-[220px] xl:w-[260px] xl:h-[220px] mx-[25px] lg:w-[320px] lg:h-[280px] rounded-md shadow-lg shadow-slate-700 xl:ms-[25px] lg:ms-[30px]" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d238.83719213218!2d98.56646962090396!3d16.707127957765767!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30dd9f80d29339af%3A0xa29807245b60be4f!2sROSE%20IMPORT%20EXPORT%20CO.%2C%20LTD.!5e0!3m2!1sen!2sth!4v1715328899517!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class="w-[300px] h-[220px] xl:w-[320px] xl:h-[260px] mx-[25px] lg:w-[320px] lg:h-[280px] rounded-md shadow-lg shadow-slate-700 xl:ms-[25px] lg:ms-[30px]" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d238.83719213218!2d98.56646962090396!3d16.707127957765767!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30dd9f80d29339af%3A0xa29807245b60be4f!2sROSE%20IMPORT%20EXPORT%20CO.%2C%20LTD.!5e0!3m2!1sen!2sth!4v1715328899517!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div> 
             <!-- Form -->
@@ -38,28 +38,28 @@
                             <div>
                                 <label for="new-password" class="block text-[13px] xl:text-lg lg:text-[16px] md:text-[12px] sm:text-[12px] font-medium ">Your Name</label>
                                 <div class="mt-1">
-                                    <input placeholder="Type Your Name" required class="input bg-gray-200 p-1 w-[100%] rounded-md focus:border-none focus:outline-none" />
+                                    <input placeholder="Type Your Name" required class="input text-black bg-gray-200 p-1 w-[100%] rounded-md focus:border-none focus:outline-none" />
                                 </div>
                             </div>
 
                             <div>
                                 <label class="block text-[13px] xl:text-lg lg:text-[16px] md:text-[12px] sm:text-[12px] font-medium ">Your Gmail</label>
                                 <div class="mt-1">
-                                    <input placeholder="Type Your Gmail" class="input bg-gray-200 p-1 w-[100%] rounded-md focus:border-none focus:outline-none" />
+                                    <input placeholder="Type Your Gmail" class="input text-black bg-gray-200 p-1 w-[100%] rounded-md focus:border-none focus:outline-none" />
                                 </div>
                             </div>
 
                             <div>
                                 <label class="block text-[13px] xl:text-lg lg:text-[16px] md:text-[12px] sm:text-[12px] font-medium ">Your Phone</label>
                                 <div class="mt-1">
-                                    <input placeholder="Type Your Number" class="input bg-gray-200 p-1 w-[100%] rounded-md focus:border-none focus:outline-none" />
+                                    <input placeholder="Type Your Number" class="input text-black bg-gray-200 p-1 w-[100%] rounded-md focus:border-none focus:outline-none" />
                                 </div>
                             </div>
 
                             <div>
                                 <label for="" class="block text-[13px] xl:text-lg lg:text-[16px] md:text-[12px] sm:text-[12px] font-medium ">Write a message</label>
                                 <div class="mt-1">
-                                    <input placeholder="Type a message" class="input bg-gray-200 p-1 w-[100%] rounded-md focus:border-none focus:outline-none" />
+                                    <input placeholder="Type a message" class="input text-black bg-gray-200 p-1 w-[100%] rounded-md focus:border-none focus:outline-none" />
                                 </div>
                             </div>
 
@@ -85,9 +85,8 @@
             </div>
             <ul class=" py-4 flex flex-row mt-[9px] gap-[10px] sm:gap-[30px] text-white lg:text-[20px] xl:text-[23px] sm:text-[14px] wrapper w-[19rem]">
                 <li class="item sm:ms-[35px] ms-[40px] lg:w-[3rem] lg:h-[3rem] xl:ms-[8px] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]"><a class="iconic lg:w-[3rem] lg:h-[3rem] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]" href="https://www.facebook.com/Rose.imex.2023?mibextid=ZbWKwL"><i class="icon fa-brands fa-facebook"></i></a></li>
-                <li class="item lg:w-[3rem] lg:h-[3rem] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]"><a class="iconic lg:w-[3rem] lg:h-[3rem] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]" href="#"><i class="icon fa-brands fa-viber"></i></a></li>
-                <li class="item lg:w-[3rem] lg:h-[3rem] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]"><a class="iconic lg:w-[3rem] lg:h-[3rem] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]" href="#"><i class="icon fa-brands fa-line"></i></a></li>
-                <li class="item lg:w-[3rem] lg:h-[3rem] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]"><a class="iconic lg:w-[3rem] lg:h-[3rem] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]" href="#"><i class="icon fa-brands fa-facebook-messenger"></i></a></li>
+                <li class="item lg:w-[3rem] lg:h-[3rem] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]"><a class="iconic lg:w-[3rem] lg:h-[3rem] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]" href="viber://chat?number=%2B66988017134"><i class="icon fa-brands fa-viber"></i></a></li>
+                <li class="item lg:w-[3rem] lg:h-[3rem] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]"><a class="iconic lg:w-[3rem] lg:h-[3rem] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]" href="line://ti/p/npgmg"><i class="icon fa-brands fa-line"></i></a></li>
             </ul>
         </div>
         </div>

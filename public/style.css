@@ -122,17 +122,13 @@ body {
   --color: #131314;
   font-family: inherit;
   display: inline-block;
-
-  line-height: 2.5em;
   margin: ;
   position: relative;
   overflow: hidden;
   border: 2px solid var(--color);
   transition: color .5s;
   z-index: 1;
-  font-size: 17px;
   border-radius: 6px;
-  font-weight: 500;
   color: var(--color);
 }
 
@@ -169,8 +165,6 @@ body {
 /* transit service card */
 
 .card-container1 {
-  width: 300px;
-  height: 300px;
   position: relative;
   border-radius: 10px;
 }
@@ -243,7 +237,7 @@ body {
 
 .card1:hover .img-content1 {
   scale: 2.5;
-  rotate: 30deg;
+  rotate: 25deg;
   filter: blur(7px);
 }
 
@@ -258,7 +252,6 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 24px;
-  line-height: 1.6;
   transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
@@ -268,9 +261,8 @@ body {
   align-items: flex-start;
   gap: 24px;
   border-radius: 22px;
-  color: #ffffff;
   overflow: hidden;
-  background: #0a3cff;
+  background: #ffef61;
   transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
@@ -282,7 +274,7 @@ body {
   width: 90%;
   height: 90%;
   transform: translate(-50%);
-  background: #ced8ff;
+  background: #e7ecff;
   z-index: -1;
   transform-origin: bottom;
 
@@ -358,7 +350,7 @@ body {
 }
 
 /* inputbox */
-.input {
+/* .input {
   height: 40px;
   border-radius: 8px;
   border: 2px solid hsl(236, 92%, 66%);
@@ -375,7 +367,7 @@ body {
 .input::placeholder {
   color: hsl(236, 92%, 66%);
   opacity: 0.5;
-}
+} */
 
 
 /* contactus card */
@@ -384,8 +376,6 @@ body {
   background: transparent;
   box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
   position: relative;
-  width: 240px;
-  height: 330px;
   border-radius: 16px;
   overflow: hidden;
 }
@@ -471,7 +461,6 @@ body {
 .card4 {
 
   background: #07182e;
-  position: relative;
   display: flex;
   place-content: center;
   place-items: center;

@@ -39,8 +39,10 @@
     <x-navbar />
 
     {{ $slot }}
-
+    
+    @if(!request()->routeIs('contactus'))
     <x-footer />
+    @endif
 </body>
 
 </html>
