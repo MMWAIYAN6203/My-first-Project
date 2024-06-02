@@ -2,7 +2,7 @@
     <x-slot:title>
         Blog Detail
     </x-slot:title>
-    <div class="flex flex-col items-center">
+    <div class="max-w-xl mx-auto">
         <h1
             class="text-md sm:text-xl md:text-2xl lg:text-[34px] xl:text-[36px] font-semibold text-[color:var(--nav-color)] py-[40px] text-center">
             {{ $blog->title }}
