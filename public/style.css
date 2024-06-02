@@ -112,20 +112,18 @@ body {
 
 /* see all button */
 .btn1 {
-
-  text-align: center;
-  --color: #131314;
-  font-family: inherit;
-  display: inline-block;
-  margin: ;
-  position: relative;
-  overflow: hidden;
-  border: 2px solid var(--color);
-  transition: color .5s;
-  z-index: 1;
-  border-radius: 6px;
-  color: var(--color);
-
+    text-align: center;
+    --color: #131314;
+    font-family: inherit;
+    display: inline-block;
+    margin: ;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color 0.5s;
+    z-index: 1;
+    border-radius: 6px;
+    color: var(--color);
 }
 
 .btn1:before {
@@ -161,9 +159,8 @@ body {
 /* transit service card */
 
 .card-container1 {
-  position: relative;
-  border-radius: 10px;
-
+    position: relative;
+    border-radius: 10px;
 }
 
 .card-container1::before {
@@ -233,11 +230,9 @@ body {
 }
 
 .card1:hover .img-content1 {
-
-  scale: 2.5;
-  rotate: 25deg;
-  filter: blur(7px);
-
+    scale: 2.5;
+    rotate: 25deg;
+    filter: blur(7px);
 }
 
 .card1:hover .img-content1 {
@@ -246,38 +241,36 @@ body {
 
 /* import/export card */
 .card2 {
-
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 24px;
-  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .content2 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 24px;
-  border-radius: 22px;
-  overflow: hidden;
-  background: #ffef61;
-  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 22px;
+    overflow: hidden;
+    background: #ffef61;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .content2::before {
-  position: absolute;
-  content: "";
-  top: -4%;
-  left: 50%;
-  width: 90%;
-  height: 90%;
-  transform: translate(-50%);
-  background: #e7dd70;
-  z-index: -1;
-  transform-origin: bottom;
-
+    position: absolute;
+    content: "";
+    top: -4%;
+    left: 50%;
+    width: 90%;
+    height: 90%;
+    transform: translate(-50%);
+    background: #e7dd70;
+    z-index: -1;
+    transform-origin: bottom;
 
     border-radius: inherit;
     transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
@@ -371,17 +364,14 @@ body {
   opacity: 0.5;
 } */
 
-
 /* contactus card */
 .e-card {
-
-  margin:;
-  background: transparent;
-  box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
-  position: relative;
-  border-radius: 16px;
-  overflow: hidden;
-
+    margin: ;
+    background: transparent;
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
 }
 
 .wave {
@@ -459,15 +449,12 @@ body {
 /* login box */
 
 .card4 {
-
-
-  background: #07182e;
-  display: flex;
-  place-content: center;
-  place-items: center;
-  overflow: hidden;
-  border-radius: 20px;
-
+    background: #07182e;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
 }
 
 .card4 h2 {
@@ -785,14 +772,11 @@ body {
     color: #00acee;
 }
 
-
-
-
 @media (min-width: 320px) {
     p.normal-font {
         font-size: 7px; /* Normal font size */
     }
-    
+
     p.large-font {
         font-size: 10px; /* Larger font size for specific language */
     }
@@ -802,7 +786,7 @@ body {
     p.normal-font {
         font-size: 12px; /* Normal font size */
     }
-    
+
     p.large-font {
         font-size: 14px; /* Larger font size for specific language */
     }
@@ -812,7 +796,7 @@ body {
     p.normal-font {
         font-size: 18px; /* Normal font size */
     }
-    
+
     p.large-font {
         font-size: 21px; /* Larger font size for specific language */
     }
