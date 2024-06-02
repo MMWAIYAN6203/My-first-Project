@@ -19,7 +19,7 @@
                         <div class="flex flex-col gap-1 text-[12px] lg:text-[16px] xl:text-[16px] ms-[35px] xl:ms-[30px] lg:ms-[25px]">
                             <span><i class="fa-solid fa-location-dot me-3"></i>{{ __("1/53 Buakoon Road, Mae Sot District,") }}</span>
                             <span class="ms-[24px]">{{ __("Tak 63110 Thailand") }}</span>
-                            <span><i class="fa-solid fa-phone me-3"></i>082-149-9251</span>
+                            <span><i class="fa-solid fa-phone me-3"></i>+66-82-149-9251 , +66-98-801-7134</span>
                             <span><i class="fa-regular fa-envelope me-3"></i>rose.imex.2023@gmail.com</span>
                         </div>
                     </div>

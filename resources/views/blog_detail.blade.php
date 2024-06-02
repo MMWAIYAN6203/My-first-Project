@@ -12,6 +12,6 @@
         <p class="text-[10px] sm:text-[14px] md:text-[14px] lg:text-[16px] xl:text-lg py-[40px] ">
             {!! $blog->description !!}
         </p>
-    </div>
+    </div><br><br>
     <script src="/script.js"></script>
 </x-layout>
