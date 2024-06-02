@@ -3,7 +3,7 @@
         Contact Us
     </x-slot:title>
     <div class="">
-        <img class="absolute inset- z-[-2] w-full h-[175vh] lg:h-full xl:h-[105vh]" src="/images/herosection.jpg" alt="">
+        <img class="absolute inset- z-[-2] w-full h-[175vh] lg:h-full xl:h-[106vh]" src="/images/herosection.jpg" alt="">
         <!-- title -->
         <h1 class="text-xl xl:text-[32px] lg:text-[2.6rem] md:text-[2rem]  text-center py-[30px] font-semibold text-white"> {{__("Contact For Any Assist") }} </h1>
         <div class="flex flex-col items-center  gap-5 mb-[50px] lg:flex lg:flex-row lg:justify-evenly lg:gap-5 mt-[50px]">

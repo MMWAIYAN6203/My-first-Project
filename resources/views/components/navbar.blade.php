@@ -2,6 +2,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>project1</title>
+    <link rel="icon" href="./Rose logo.jpg">
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/blog_design.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -24,7 +25,7 @@
         }
 
         body {
-            background-color: #6a85ee;
+            background-color: ;
             position: relative;
             height: 100%;
         }
@@ -33,7 +34,7 @@
 
 
 <body class="font-[Poppins] ">
-    <header class="bg-[color:var(--nav-color)] h-[100px] ">
+    <header class="bg-[color:var(--nav-color)] h-[102px] ">
         <nav class="flex justify-between items-center w-full xl:px-[40px] sm:px-[30px] md:px-[20px] py-[14px] px-[10px] mx-auto">
             <div>
                 <a href="/">
@@ -41,7 +42,7 @@
                 </a>
             </div>
             <div class="nav-links my duration-500 md:static fixed bg-[color:var(--nav-color)] z-[4] md:min-h-fit min-h-full left-0 top-[-120%] md:w-auto  w-full flex items-center px-5">
-                <ul class="text-white flex md:flex-row flex-col m-auto md:items-center md:gap-[4vw] gap-5 text-[18px] mt-[120px] md:mt-[0px] lg:mt-[0px] xl:mt-[0px] xl:text-[25px]">
+                <ul class="text-white flex md:flex-row flex-col m-auto md:items-center md:gap-[4vw] gap-5 text-[18px] mt-[120px] md:mt-[0px] lg:mt-[0px] xl:mt-[0px] xl:text-[25px] md:text-[13px]">
 
                     <li class="">
                         <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === '/' ? 'text-[var(--hover-color)]' : 'text-white' }}" href="/">{{__("Home") }}</a>
@@ -68,7 +69,7 @@
             <div class="flex items-center gap-[15px]">
                 <div id='localSelector' class="text-white relative md:py-5 md:px-7 py-4 px-5 rounded-lg bg-[color:var(--nav-color)] cursor-pointer">
                     <div class='flex flex-row items-center gap-4'>
-                        <span class="select-none">{{__("Language") }}</span>
+                        <span class="select-none text-[18px] xl:text-[25px] md:text-[13px]">{{__("Language") }}</span>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                         </svg>

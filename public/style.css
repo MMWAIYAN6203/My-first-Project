@@ -274,7 +274,7 @@ body {
   width: 90%;
   height: 90%;
   transform: translate(-50%);
-  background: #e7ecff;
+  background: #e7dd70;
   z-index: -1;
   transform-origin: bottom;
 
@@ -291,7 +291,7 @@ body {
     width: 80%;
     height: 80%;
     transform: translate(-50%);
-    background: #e7ecff;
+    background: #e7dd70;
     z-index: -2;
     transform-origin: bottom;
     border-radius: inherit;
@@ -783,4 +783,37 @@ body {
 
 #twitter:hover {
     color: #00acee;
+}
+
+
+
+
+@media (min-width: 320px) {
+    p.normal-font {
+        font-size: 7px; /* Normal font size */
+    }
+    
+    p.large-font {
+        font-size: 10px; /* Larger font size for specific language */
+    }
+}
+
+@media (min-width: 540px) {
+    p.normal-font {
+        font-size: 12px; /* Normal font size */
+    }
+    
+    p.large-font {
+        font-size: 14px; /* Larger font size for specific language */
+    }
+}
+
+@media (min-width: 960px) {
+    p.normal-font {
+        font-size: 18px; /* Normal font size */
+    }
+    
+    p.large-font {
+        font-size: 21px; /* Larger font size for specific language */
+    }
 }

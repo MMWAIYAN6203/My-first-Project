@@ -1,11 +1,85 @@
 {
-    "Home": "เรายินดีต้", 
+    "Home": "หน้าแรก",
+
+    "Blog": "บล็อก",
+
+    "Services": "บริการ",
+
+    "About": "เกี่ยวกับเรา",
+
+    "Contact Us": "ติดต่อเรา",
+
+    "Recently Updated Blogs": "บล็อกที่อัปเดตล่าสุด",
+
+    "See All": "ดูทั้งหมด",
+    
+    "Our Services": "บริการของเรา",
+
+    "About ROSE": "เกี่ยวกับRose",
+
+    "Read More": "อ่านเพิ่มเติม",
+
+    "Transit Container service": "บริการขนส่งตู้คอนเทนเนอร์",
+
+    "Custom Clearance Service": "บริการเคลียร์กล่อง",
+
+    "Import Service !": "บริการนำเข้า !",
+
+    "Export Service !": "บริการส่งออก !",
+
+    "Warehouse Service !": "บริการคลังสินค้า !",
+
+    "About Us": "เกี่ยวกับเรา",
+
+    "Who We Are !": "พวกเราคือใคร !",
+
+    "Our Mission !": "ภารกิจของเรา !",
+
+    "Our Vision !": "วิสัยทัศน์ของเรา !",
+
+    "Our History": "ประวัติศาสตร์ของพวกเรา",
+
+    "Language": "ภาษา",
+
+    "Thai": "",
+
+    "English": "",
+
+    "Myanmar": "",
+
+    "Contact For Any Assist": "ติดต่อเพื่อขอความช่วยเหลือใด ๆ",
+
+    "Our Address": "ที่อยู่ของเรา",
+
+    "Get In Touch With Us": "ติดต่อกับพวกเรา",
+
+    "Your Name": "ชื่อของคุณ",
+
+    "Your Gmail": "Gmail ของคุณ",
+
+    "Your Phone": "โทรศัพท์ของคุณ",
+
+    "Write a Message": "เขียนข้อความ",
+
+    "Type Your Name": "พิมพ์ชื่อของคุณ",
+
+    "Type Your Gmail": "พิมพ์ Gmail ของคุณ",
+    
+    "Type Your Phone": "พิมพ์โทรศัพท์ของคุณ",
+
+    "Type a Message": "พิมพ์ข้อความ",
+
+    "Send Message": "ส่งข้อความ",
+
+    "1/53 Buakoon Road, Mae Sot District,": "1/53 ถนนบัวคูน อำเภอแม่สอด",
+
+    "Tak 63110 Thailand": "ตาก 63110 ประเทศไทย",
+
+    "1/53 Buakoon Road, Mae Sot District,Tak 63110,Thailand": "1/53 ถ.บัวคูณ อ.แม่สอด จ.ตาก 63110 ประเทศไทย",
 
     "We warmly welcome you to work with us,for timly fast and reliable trading": "เรายินดีต้อนรับคุณอย่างอบอุ่นที่จะร่วมงานกับเราเพื่อการค้าที่ทันเวลา รวดเร็ว และเชื่อถือได้",
 
     "We invite you to work with ROSE IMPORT EXPORT COMPANY LIMITED, which always provides the best services": "เราขอเชิญคุณมาร่วมงานกับ ROSE IMPORT EXPORT COMPANY LIMITED ที่ให้บริการที่ดีที่สุดเสมอมา",
-
-    "Recently Updated Blogs": "เราขอเชิญคุณมาร่วมงานกับ", 
 
     "We are Rose Import Export Co.,Ltd who deliver your goods from Thailand's airports and seaports to their destination quickly and without damage.": "เราคือบริษัท โรส อิมพอร์ต เอ็กซ์พอร์ต จำกัด  ที่จัดส่งสินค้าของคุณจากสนามบินและท่าเรือของประเทศไทยไปยังจุดหมายปลายทางของคุณอย่างรวดเร็วและไม่เกิดความเสียหา",
 

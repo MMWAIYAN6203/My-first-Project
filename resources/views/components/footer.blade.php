@@ -14,7 +14,7 @@
                 <span><i class="fa-solid fa-phone me-3"></i>082-149-9251</span>
                 <span><i class="fa-regular fa-envelope me-3"></i>rose.imex.2023@gmail.com</span>
             </div>
-            <ul class="flex gap-5 text-[13px] xl:text-[18px] lg:text-[16px]">
+            <ul class="flex gap-5 text-[11px] xl:text-[18px] lg:text-[16px]">
             <li class="">
                         <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === '/' ? 'text-[var(--hover-color)]' : 'text-white' }}" href="/">{{__("Home") }}</a>
                     </li>
