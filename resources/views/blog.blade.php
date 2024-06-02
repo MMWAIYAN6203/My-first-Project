@@ -13,13 +13,17 @@
 
     <div>
         <section class="hero-section sm:mt-[-20px]">
-            <div class="card-grid">
-                @forelse ($blogs as $blog)
-                    <x-blogcard :blog="$blog" />
-                @empty
+            @if (sizeof($blogs))
+                <div class="card-grid">
+                    @foreach ($blogs as $blog)
+                        <x-blogcard :blog="$blog" />
+                    @endforeach
+                </div>
+            @else
+                <div class='min-h-[50vh] flex justify-center items-center'>
                     <x-nodata data='blog' />
-                @endforelse
-            </div>
+                </div>
+            @endif
         </section>
         @if ($blogs)
             <div class="max-w-[1200px] mx-auto my-11">

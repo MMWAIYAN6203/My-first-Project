@@ -57,8 +57,8 @@
                         </a>
                     @endif
                 @empty
-                    <div class="flex h-[50vh] w-screen justify-center items-center">
-                        <h1 class='text-gray-800 text-xl font-bold'>No Team Member Yet</h1>
+                    <div class='col-span-4 min-h-[50vh] flex justify-center items-center'>
+                        <x-nodata data='team member' />
                     </div>
                 @endforelse
             </div>

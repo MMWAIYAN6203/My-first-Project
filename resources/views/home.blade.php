@@ -37,27 +37,29 @@
     </div>
 
     <!-- Blog Intro -->
-    <div class="">
-        <h1
-            class="text-xl my-8 font-semibold text-[color:var(--nav-color)] sm:text-4xl md:text-2xl lg:text-[36px] text-center">
-            {{ __('Recently Updated Blogs') }}
-        </h1>
-    </div>
+    @if (sizeof($blogs))
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <div>
-        <section class="hero-section">
-            <div class="card-grid">
-                @forelse ($blogs as $blog)
-                    <x-blogcard :blog="$blog" />
-                @empty
-                    <x-nodata data='blog' />
-                @endforelse
-            </div>
-        </section>
-        <a class="btn1 font-semibold float-right me-[20px] xl:float-right xl:me-[20px] text-[10px]  md:text-[14px] lg:text-lg w-[5.5em] h-[2em] pt-[2px] lg:w-[5em] lg:h-[2em] lg:pt-[px] xl:w-[5em] xl:h-[2em] xl:pt-[2px]"
-            href="/blog"> {{ __('See All') }} </a>
-    </div>
+        <div class="">
+            <h1
+                class="text-xl my-8 font-semibold text-[color:var(--nav-color)] sm:text-4xl md:text-2xl lg:text-[36px] text-center">
+                {{ __('Recently Updated Blogs') }}
+            </h1>
+        </div>
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+        <div>
+            <section class="hero-section">
+                <div class="card-grid">
+                    @foreach ($blogs as $blog)
+                        <x-blogcard :blog="$blog" />
+                    @endforeach
+                </div>
+            </section>
+            <a class="btn1 font-semibold float-right me-[20px] xl:float-right xl:me-[20px] text-[10px]  md:text-[14px] lg:text-lg w-[5.5em] h-[2em] pt-[2px] lg:w-[5em] lg:h-[2em] lg:pt-[px] xl:w-[5em] xl:h-[2em] xl:pt-[2px]"
+                href="/blog"> {{ __('See All') }} </a>
+        </div>
+    @endif
+
 
     <!-- Service Intro -->
     <div>
