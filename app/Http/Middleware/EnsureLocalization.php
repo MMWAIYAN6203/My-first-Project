@@ -15,13 +15,13 @@ class EnsureLocalization
      */
     public function handle(Request $request, Closure $next): Response
     {
-        $locale = session()->get('locale');
-        if (!$locale) {
-            app()->setLocale('thai');
-            session()->put('locale', 'thai');
+        if ($locale = session()->get('locale') ?? null) {
+            app()->setLocale($locale);
         } else {
+            $locale = 'thai';
             app()->setLocale($locale);
         }
+        session()->put('locale', $locale);
         return $next($request);
     }
 }

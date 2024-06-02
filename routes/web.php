@@ -4,6 +4,7 @@ use App\Helpers\Localization;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\TeamController;
 use App\Http\Middleware\EnsureLocalization;
+use App\Models\Blog;
 use Illuminate\Support\Facades\Route;
 
 
@@ -14,7 +15,8 @@ Route::post('/localization', function () {
 
 Route::middleware([EnsureLocalization::class])->group(function () {
     Route::get('/', function () {
-        return view('home');
+        $blogs = Blog::latest()->limit(4)->get();
+        return view('home', compact('blogs'));
     })->name('home');
 
 
