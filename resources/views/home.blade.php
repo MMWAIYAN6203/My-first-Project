@@ -90,7 +90,7 @@
             <a class="btn1 mt-[10px] lg:mt-[-10px] md:mt-[5px] xl:mt-[15px] xl:h-[2em] lg:text-xl md:text-lg text-[10px] md:text-[14px] w-[7em] h-[2em] xl:pb-[0px] pt-[1px] lg:w-[6em] lg:h-[2em] lg:pt-[3px] md:w-[7em] md:h-[2em] md:pt-[2px] sm:w-[7em] sm:h-[2em] sm:p-[2px]"
                 href="/aboutus"> {{ __('Read More') }} </a>
         </div>
-        <img class="object-fill xl:w-[400px] w-[150px] sm:w-[250px] sm:h-[300px] py-[30px]" src="/images/Rose_logo.png"
+        <img class="object-fill xl:w-[300px] w-[150px] sm:w-[250px] sm:h-[300px] py-[30px]" src="/images/Rose_logo.png"
             alt="">
     </div>
 
