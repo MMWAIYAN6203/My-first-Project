@@ -11,7 +11,7 @@
                     src="./images/hero1.webp" />
                 <div
                     class="flex flex-col items-center absolute inset-0  mt-[80px] md:mt-[160px] lg:mt-[200px] xl:mt-[220px]">
-                    <div class="font-semibold text-[9px] xl:text-xl md:text-lg w-[50%]">
+                    <div class="font-semibold text-[9px] xl:text-2xl md:text-lg w-[50%]">
                         {{ __('We warmly welcome you to work with us,for timly fast and reliable trading') }}
                     </div>
                     <a class="btn1 font-semibold mt-[10px] xl:mt-[20px] text-[9px] lg:text-xl md:text-lg sm:text-sm  w-[7.2em] h-[2em] xl:w-[7em] xl:h-[2em] lg:w-[6em] lg:h-[2em] lg:pt-[4px] md:w-[6em] md:h-[1em] md:pb-[33px] pt-[1px] xl:text-center md:pt-[3px] "
@@ -23,7 +23,7 @@
                     src="./images/hero2.jpg" />
                 <div
                     class="flex flex-col items-center absolute inset-0 mt-[80px] md:mt-[160px] lg:mt-[200px] xl:mt-[220px]">
-                    <div class="font-semibold text-[9px] xl:text-xl md:text-lg w-[50%]">
+                    <div class="font-semibold text-[9px] xl:text-2xl md:text-lg w-[50%]">
                         {{ __('We invite you to work with ROSE IMPORT EXPORT COMPANY LIMITED, which always provides the best services') }}
                     </div>
                     <a class="btn1 font-semibold mt-[10px] xl:mt-[20px] text-[8px] lg:text-xl md:text-lg sm:text-sm  w-[7.2em] h-[2em] xl:w-[7em] xl:h-[2em] lg:w-[6em] lg:h-[2em] lg:pt-[4px] md:w-[6em] md:h-[1em] md:pb-[33px] pt-[1px] xl:txe-center md:pt-[3px] "
@@ -90,7 +90,7 @@
             <a class="btn1 mt-[10px] lg:mt-[-10px] md:mt-[5px] xl:mt-[15px] xl:h-[2em] lg:text-xl md:text-lg text-[10px] md:text-[14px] w-[7em] h-[2em] xl:pb-[0px] pt-[1px] lg:w-[6em] lg:h-[2em] lg:pt-[3px] md:w-[7em] md:h-[2em] md:pt-[2px] sm:w-[7em] sm:h-[2em] sm:p-[2px]"
                 href="/aboutus"> {{ __('Read More') }} </a>
         </div>
-        <img class="object-fill xl:w-[400px] w-[150px] sm:w-[250px] sm:h-[300px] py-[30px]" src="/images/Rose logo.jpg"
+        <img class="object-fill xl:w-[400px] w-[150px] sm:w-[250px] sm:h-[300px] py-[30px]" src="/images/Rose_logo.png"
             alt="">
     </div>
 

@@ -5,6 +5,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/blog_design.css" />
+    <link class="rounded-full" rel="stylesheet" href="/style.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="icon" href="/images/Rose logo.jpg">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     @vite('resources/css/app.css')
     <title>{{ $title ? "Rose | $title" : 'Rose' }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,8 +74,9 @@
         }
 
         body {
-            background-color: #6a85ee;
+            background-color: whitesmoke;
         }
+        
     </style>
 </head>
 
