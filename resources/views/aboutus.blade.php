@@ -43,6 +43,7 @@
 
       </div>
     </div><br><br>
+    <x-founder></x-founder>
     <!-- core -->
     <div class="relative">
       <img class="w-full xl:h-[68vh] lg:h-[45vh] md:h-[45vh] sm:h-[50vh] opacity-50" src="/images/history.jpg" alt="">

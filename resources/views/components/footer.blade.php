@@ -1,4 +1,4 @@
-<footer class="w-full h-[340px] lg:h-[220px] xl:h-[250px] sm:h-[190px] bg-[color:var(--nav-color)] text-white">
+<footer class="w-full h-[340px] md:h-[240px] lg:h-[250px] xl:h-[250px] sm:h-[190px] bg-[color:var(--nav-color)] text-white">
     <div class="flex flex-col items-center sm:flex sm:flex-row sm:justify-evenly md:flex md:flex-row md:justify-between lg:flex lg:flex-row lg:justify-between">
 
 
@@ -14,7 +14,7 @@
                 <span><i class="fa-solid fa-phone me-3"></i>+66-82-149-9251 , +66-98-801-7134</span>
                 <span><i class="fa-regular fa-envelope me-3"></i>rose.imex.2023@gmail.com</span>
             </div>
-            <ul class="flex gap-5 text-[11px] xl:text-[18px] lg:text-[16px]">
+            <ul class="flex gap-4 text-[10px] md:text-[12px] xl:text-[18px] lg:text-[16px]">
             <li class="">
                         <a class="hover:[color:var(--hover-color)] {{ request()->route()->uri === '/' ? 'text-[var(--hover-color)]' : 'text-white' }}" href="/">{{__("Home") }}</a>
                     </li>
@@ -39,7 +39,7 @@
         <div class=" mt-[20px] xl:mt-[90px] sm:mt-[71px]">
 
             <ul class="xl:ms-[50px]  flex gap-[20px] sm:gap-[10px] lg:text-[20px] xl:text-[23px] sm:text-[14px] wrapper w-[19rem]">
-                <li class="item sm:ms-[35px] ms-[60px] xl:ms-[38px] w-[3rem] h-[3rem]"><a class="iconic w-[3rem] h-[3rem]" href="https://www.facebook.com/Rose.imex.2023?mibextid=ZbWKwL"><i class="icon fa-brands fa-facebook"></i></a></li>
+                <li class="item sm:ms-[35px] ms-[60px] md:ms-[62px] lg:ms-[65px] xl:ms-[38px] w-[3rem] h-[3rem]"><a class="iconic w-[3rem] h-[3rem]" href="https://www.facebook.com/Rose.imex.2023?mibextid=ZbWKwL"><i class="icon fa-brands fa-facebook"></i></a></li>
                 <li class="item w-[3rem] h-[3rem]"><a class="iconic w-[3rem] h-[3rem]" href="viber://chat?number=%2B66988017134"><i class="icon fa-brands fa-viber"></i></a></li>
                 <li class="item w-[3rem] h-[3rem]"><a class="iconic w-[3rem] h-[3rem]" href="line://ti/p/npgmg"><i class="icon fa-brands fa-line"></i></a></li>
             </ul>
