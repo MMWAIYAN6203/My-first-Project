@@ -2,7 +2,11 @@
     <x-slot:title>
         Services
     </x-slot:title>
-    <h1 class="text-xl xl:text-[36px] lg:text-[2.6rem] md:text-[2rem] text-center my-[30px] font-semibold">{{ __("Our Services") }}</h1>
+
+    <div>
+        <img class="xl:w-full xl:h-[70vh] object-fill rounded-lg shadow-md shadow-black " src="/images/logistic.jpg" alt="">
+        <h1 class="text-xl xl:text-[36px] lg:text-[2.6rem] md:text-[2rem] text-center my-[30px] font-semibold">{{ __("Our Services") }}</h1>
+    </div>
     <!-- Transit -->
     <div class="my-[50px] mb-[60px]  p-[0px]  ">
         <div class="card-container1 m-auto  w-[35vh] h-[28vh] xl:w-[67vh] xl:h-[35vh] lg:w-[50vh] lg:h-[vh] md:w-[50vh] md:h-[35vh] sm:w-[45vh] sm:h-[35vh]">
