@@ -8,7 +8,7 @@
         <h1 class="text-xl xl:text-[32px] lg:text-[2.6rem] md:text-[2rem]  text-center py-[30px] font-semibold text-white"> {{__("Contact For Any Assist") }} </h1>
         <div class="flex flex-col items-center  gap-5 mb-[50px] lg:flex lg:flex-row lg:justify-evenly lg:gap-5 mt-[50px]">
             <!-- address box -->
-            <div class="e-card bg-white relative playing  w-[350px] h-[65vh] lg:w-[380px] lg:h-[59vh] xl:w-[50vh] xl:h-[65vh]">
+            <div class="e-card bg-white relative playing  w-[320px] h-[65vh] lg:w-[380px] lg:h-[59vh] xl:w-[50vh] xl:h-[65vh]">
                 <div class="image"></div>
                 <div class="wave"></div>
                 <div class="wave"></div>
@@ -23,13 +23,13 @@
                             <span><i class="fa-regular fa-envelope me-3"></i>rose.imex.2023@gmail.com</span>
                         </div>
                     </div>
-                    <iframe class="w-[300px] h-[220px] xl:w-[320px] xl:h-[260px] mx-[25px] lg:w-[320px] lg:h-[280px] rounded-md shadow-lg shadow-slate-700 xl:ms-[25px] lg:ms-[30px]" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d238.83719213218!2d98.56646962090396!3d16.707127957765767!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30dd9f80d29339af%3A0xa29807245b60be4f!2sROSE%20IMPORT%20EXPORT%20CO.%2C%20LTD.!5e0!3m2!1sen!2sth!4v1715328899517!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class="w-[300px] h-[220px] xl:w-[320px] xl:h-[260px] mx-[10px] lg:w-[320px] lg:h-[280px] rounded-md shadow-lg shadow-slate-700 xl:ms-[25px] lg:ms-[30px]" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d238.83719213218!2d98.56646962090396!3d16.707127957765767!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30dd9f80d29339af%3A0xa29807245b60be4f!2sROSE%20IMPORT%20EXPORT%20CO.%2C%20LTD.!5e0!3m2!1sen!2sth!4v1715328899517!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div> 
             <!-- Form -->
             <div class="">
                 <div class=" max-w-md space-y-8">
-                    <div class="bg-[color:var(--nav-color)] text-white shadow-md w-[350px] lg:w-[380px] xl:w-[420px] rounded-lg p-6">
+                    <div class="bg-[color:var(--nav-color)] text-white shadow-md w-[320px] lg:w-[380px] xl:w-[420px] rounded-lg p-6">
                         <h2 class="my-3 text-center text-lg xl:text-2xl lg:text-2xl md:text-xl font-semibold tracking-tight ">
                             {{__("Get In Touch With Us") }}
                         </h2>

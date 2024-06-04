@@ -4,8 +4,8 @@
     </x-slot:title>
     <h1 class="text-xl xl:text-[36px] lg:text-[2.6rem] md:text-[2rem] text-center my-[30px] font-semibold">{{ __("Our Services") }}</h1>
     <!-- Transit -->
-    <div class="relative my-[20px] xl:mt-[50px] xl:mx-[43vh] lg:mt-[50px] lg:mx-[14vh] md:mt-[4px] md:mx-[14vh] mt-[4px] mx-[15px]">
-        <div class="card-container1 w-[33vh] h-[28vh] xl:w-[67vh] xl:h-[35vh] lg:w-[50vh] lg:h-[vh] md:w-[50vh] md:h-[35vh] sm:w-[45vh] sm:h-[35vh]">
+    <div class="my-[50px] mb-[60px]  p-[0px]  ">
+        <div class="card-container1 m-auto  w-[35vh] h-[28vh] xl:w-[67vh] xl:h-[35vh] lg:w-[50vh] lg:h-[vh] md:w-[50vh] md:h-[35vh] sm:w-[45vh] sm:h-[35vh]">
             <div class="card1 ">
                 <div class="img-content1">
                     <h1 class="transportation text-center text-[10px] xl:text-2xl lg:text-lg md:text-md font-semibold">{{ __("Transit Container service") }}</h1>
@@ -15,13 +15,13 @@
                         {{ __("Cruise through seamless transit container services with us! Our comprehensive solutions ensure your cargo moves swiftly and securely from point A (where u want) to point B (where u want), whether it's a brief stopover or a multi-leg journey. With our expert handling and global network of partners, your shipments are in safe hands, ensuring timely delivery and peace of mind every step of the way.") }}
                     </p>
                 </div>
-
             </div>
+            <!-- <img class=" w-[30vh] h-[28vh] xl:w-[67vh] xl:h-[35vh] lg:w-[50vh] lg:h-[vh] md:w-[50vh] md:h-[35vh] sm:w-[45vh] sm:h-[35vh] object-fill rounded-xl " src="/images/Transit_container.jpg" alt=""> -->
         </div>
-        <img class="absolute w-[33vh] h-[28vh] xl:w-[67vh] xl:h-[35vh] lg:w-[50vh] lg:h-[vh] md:w-[50vh] md:h-[35vh] sm:w-[45vh] sm:h-[35vh] object-fill rounded-xl ms-[20vh] xl:ms-[47vh] xl:mt-[-35px] lg:ms-[40vh] lg:mt-[-45px]  md:ms-[39vh] mt-[-45px] ms-[20vh]  z-[-1]" src="/images/Transit_container.jpg" alt="">
+        <!-- <img class=" w-[33vh] h-[28vh] xl:w-[67vh] xl:h-[35vh] lg:w-[50vh] lg:h-[vh] md:w-[50vh] md:h-[35vh] sm:w-[45vh] sm:h-[35vh] object-fill rounded-xl ms-[15vh] xl:ms-[47vh] xl:mt-[-35px] lg:ms-[40vh] lg:mt-[-45px]  md:ms-[39vh] mt-[-45px] ms-[20vh]  z-[-1]" src="/images/Transit_container.jpg" alt=""> -->
     </div>
     <!-- custom clearance -->
-    <div class="flex flex-row gap-4 mt-[180px] mx-[3px] xl:mt-[40vh] xl:mx-[32vh] lg:mt-[35vh] lg:mx-[5vh] md:mt-[250px] md:mx-[5vh]">
+    <div class="flex flex-row gap-4  mx-[3px]  xl:mx-[32vh]  lg:mx-[5vh]  md:mx-[5vh]">
         <img class="object-fill w-[25vh] h-[25vh] lg:w-[40vh] lg:h-[35vh] md:w-[40vh] md:h-[35vh] xl:w-[60vh] xl:h-[45vh] xl:ms-[5vh]" src="/images/custom-clearance.jpg" alt="img of clearance">
         <div class="xl:mt-[45px] xl:w-[550px] lg:mt-[50px] lg:w-[550px] md:mt-[40px] md:w-[450px]">
             <h1 class="text-md xl:text-2xl lg:text-2xl md:text-xl sm:text-xl font-semibold">{{ __("Custom Clearance Service") }}</h1>
@@ -52,9 +52,9 @@
     </div>
 
     <!-- Warehouse service -->
-    <div class="relative">
-        <img class="ms-[2vh] mt-[23vh] xl:ms-[37vh] xl:mt-[35vh] lg:ms-[3vh] lg:mt-[30vh] md:ms-[10vh] md:mt-[30vh] rounded-xl w-[35vh] xl:w-[70vh] lg:w-[65vh] md:w-[55vh] w-[37vh]" src="/images/warehouse.jpg" alt="">
-        <div class="card3 w-[37vh] h-[29vh] xl:w-[70vh] xl:h-[48vh] lg:w-[65vh] lg:h-[42vh] md:w-[55vh] md:h-[43vh] text-white ms-[19vh] xl:ms-[90vh] lg:ms-[50vh] md:ms-[55vh] sm:ms-[40vh] absolute inset-0 z-[1] mt-[-27vh] xl:mt-[-35vh] lg:mt-[-30vh] md:mt-[-30vh]">
+    <div class="">
+        <!-- <img class="ms-[2vh] mt-[23vh] xl:ms-[37vh] xl:mt-[35vh] lg:ms-[3vh] lg:mt-[30vh] md:ms-[10vh] md:mt-[30vh] rounded-xl w-[35vh] xl:w-[70vh] lg:w-[65vh] md:w-[55vh] w-[37vh]" src="/images/warehouse.jpg" alt=""> -->
+        <div class="card3 m-auto w-[37vh] h-[29vh] xl:w-[70vh] xl:h-[48vh] lg:w-[65vh] lg:h-[42vh] md:w-[55vh] md:h-[43vh] text-white">
             <h1 class="xl:text-2xl lg:text-2xl md:text-2xl sm:text-xl py-[15px] sm:py-[10px] md:py-[15px] text-center font-semibold">{{__("Warehouse Service !") }}</h1>
             <p class="leading-3 xl:leading-7 lg:leading-7 md:leading-5 text-[8px] xl:text-[16px] lg:text-lg md:text-[11px]  text-center xl:w-full xl:px-[15px] lg:w-full lg:px-[20px] md:w-full md:px-[10px] w-full p-[5px]">{{ __('Efficient warehouse services are crucial for a successful supply chain, providing secure storage, inventory management, and seamless distribution. They optimize space, ensure timely order fulfillment, and accurately track inventory, reducing costs and boosting customer satisfaction. Utilizing advanced technologies like barcode scanning, RFID, and warehouse management systems (WMS), businesses achieve higher accuracy and efficiency, ensuring products are always available and promptly delivered.') }}</p>
         </div>

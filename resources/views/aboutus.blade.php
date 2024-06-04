@@ -26,7 +26,7 @@
         <img class="w-full h-[20vh] xl:w-full xl:h-[28vh] " src="/images/visionmission.png" alt="mission vision img">
       </div>
       <div>
-        <div class="w-[55vh] h-[25vh] xl:w-[90vh] xl:h-[30vh] lg:w-[70vh] lg:h-[30vh] md:w-[75vh] md:h-[30vh] sm:w-[70vh] sm:h-[25vh] cursor-pointer relative transition-all duration-500 hover:translate-y-2 bg-neutral-50 rounded-xl shadow-2xl flex flex-row items-center justify-evenly gap-2 p-2 before:absolute before:w-full hover:before:top-0 before:duration-500 before:-top-1 before:h-1 before:bg-purple-300">
+        <div class="w-full h-[25vh] xl:w-[90vh] xl:h-[30vh] lg:w-[70vh] lg:h-[30vh] md:w-[75vh] md:h-[30vh] sm:w-[70vh] sm:h-[25vh] cursor-pointer relative transition-all duration-500 hover:translate-y-2 bg-neutral-50 rounded-xl shadow-2xl flex flex-row items-center justify-evenly gap-2 p-2 before:absolute before:w-full hover:before:top-0 before:duration-500 before:-top-1 before:h-1 before:bg-purple-300">
           <div class="mySlides fade">
             <h1 class="font-bold text-md xl:text-2xl lg:text-2xl md:text-xl sm:text-xl text-center"> {{__("Our Mission !") }} </h1>
             <p class="line-clamp-3 xl:w-full pt-3 text-center xl:text-[18px] lg:text-[16px] md:text-[13px] sm:text-[12px] text-[9px]">
@@ -47,9 +47,9 @@
     <!-- core -->
     <div class="relative">
       <img class="w-full xl:h-[68vh] lg:h-[45vh] md:h-[45vh] sm:h-[50vh] opacity-50" src="/images/history.jpg" alt="">
-      <div class="absolute inset-0 z-[1] my-[5vh] text-black mx-[30px] lg:mt-[30px] sm:mt-[-10px] mt-[-5px] md:mt-[10px]">
+      <div class="absolute inset-0 z-[1] my-[2vh] text-black mx-auto  lg:mt-[30px] sm:mt-[-10px] mt-[-30px] md:mt-[10px]">
         <h1 class="text-center font-bold xl:text-2xl lg:text-2xl md:text-xl sm:text-xl text-md py-3">{{__ ("Our History") }}</h1>
-        <p class="text-[9px] font-semibold w-[50vh] xl:text-[18px] lg:text-[16px] lg:w-[90vh] md:text-[13px] md:w-[90vh] sm:text-[12px] sm:w-[90vh] m-auto leading-[2] ">
+        <p class="text-[9px] font-semibold w-[45vh] xl:text-[18px] lg:text-[16px] lg:w-[90vh] md:text-[13px] md:w-[90vh] sm:text-[12px] sm:w-[90vh] m-auto leading-[2] ">
           {{ __("We, Rose Export Import Co., Ltd was established in 2020. For the first time, we delivered some containers from Lanchabang Port to Mae Sot Mae Sot to Myawaddy smoothly. There were only 2 warehouses in Yangon and Myawaddy in 2020. We implemented according to our core and got the customer's satisfaction feedback. By 2022, we have expanded to 3 warehouses with one office each in Yangon and Myawaddy. With the trust of customers, I was able to grow my business and expand to a total of 6 warehouses and a large number of transport trucks. In addition, in 2023, the head office was expanded and built in Mae Sot, Thailand. So now, due to my hard work and the trust of you guys, I will be called Rose in the import and export company and have achieved success.") }}
         </p>
       </div>
