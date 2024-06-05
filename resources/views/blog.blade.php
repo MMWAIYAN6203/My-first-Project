@@ -1,6 +1,6 @@
 <x-layout>
     <x-slot:title>
-        Blog
+        {{ __("Blog") }}
     </x-slot:title>
     <div class="">
         <h1

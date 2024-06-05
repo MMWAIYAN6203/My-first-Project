@@ -1,6 +1,6 @@
 <x-layout>
     <x-slot:title>
-        Home
+        {{ __("Home") }}
     </x-slot:title>
     <!-- Hero Section -->
     <!-- Hero Section -->

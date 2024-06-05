@@ -1,4 +1,6 @@
-<footer class="w-full h-[340px] md:h-[240px] lg:h-[250px] xl:h-[250px] sm:h-[190px] bg-[color:var(--nav-color)] text-white">
+
+
+<footer class="w-full h-[340px] md:h-[240px] lg:h-[270px]  xl:h-[260px] xl:mt-[100px] bg-[color:var(--nav-color)] text-white">
     <div class="flex flex-col items-center sm:flex sm:flex-row sm:justify-evenly md:flex md:flex-row md:justify-between lg:flex lg:flex-row lg:justify-between">
 
 

@@ -70,6 +70,12 @@
         body {
             background-color: whitesmoke;
         }
+
+        footer {
+            position: absolute;
+            /* Can be 'fixed' or 'absolute' depending on your needs */
+            bottom: auto;
+        }
     </style>
 </head>
 

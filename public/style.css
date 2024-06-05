@@ -774,7 +774,7 @@ body {
 
 @media (min-width: 320px) {
     p.normal-font {
-        font-size: 7px; /* Normal font size */
+        font-size: 9px; /* Normal font size */
     }
 
     .card2 {
@@ -788,7 +788,7 @@ body {
 
 @media (min-width: 540px) {
     p.normal-font {
-        font-size: 12px; /* Normal font size */
+        font-size: 10px; /* Normal font size */
     }
 
     p.large-font {
@@ -798,7 +798,7 @@ body {
 
 @media (min-width: 960px) {
     p.normal-font {
-        font-size: 18px; /* Normal font size */
+        font-size: 16px; /* Normal font size */
     }
 
     p.large-font {
@@ -821,3 +821,4 @@ body {
 
     
 }
+

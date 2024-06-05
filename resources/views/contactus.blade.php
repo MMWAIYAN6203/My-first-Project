@@ -1,6 +1,6 @@
 <x-layout>
     <x-slot:title>
-        Contact Us
+        {{ __("Contact Us") }}
     </x-slot:title>
 
     <body class="bg">
@@ -13,7 +13,7 @@
             <h1 class="text-xl xl:text-[32px] lg:text-[2.6rem] md:text-[2rem]  text-center py-[30px] font-semibold text-white"> {{__("Contact For Any Assist") }} </h1>
             <div class="flex flex-col items-center  gap-5 mb-[50px] lg:flex lg:flex-row lg:justify-evenly lg:gap-5 mt-[50px]">
                 <!-- address box -->
-                <div class="e-card bg-white relative playing  w-[300px] h-[410px] md:h-[450px]  lg:w-[380px] lg:h-[59vh] xl:w-[50vh] xl:h-[65vh]">
+                <div class="e-card bg-white relative playing  w-[300px] h-[410px] md:h-[450px]  lg:w-[380px] lg:h-[480px] xl:w-[380px] xl:h-[490px]">
                     <!-- h-[65vh] -->
                     <div class="image"></div>
                     <div class="wave"></div>
@@ -84,7 +84,7 @@
         </div>
 
         <!-- footer -->
-        <footer class="w-full h-[85px] lg:h-[90px] xl:h-[90px] bg-[color:var(--nav-color)] text-white lg:mt-[155px] xl:mt-[150px]">
+        <footer class="w-full h-[85px] lg:h-[90px] xl:h-[90px] bg-[color:var(--nav-color)] text-white lg:mt-[155px] xl:mt-[185px]">
             <div class="flex flex-row  justify-evenly px-[10px]">
                 <div class="text-gray-400 text-[9px] w-[300px] xl:w-[300px] sm:text-[12px] lg:text-[16px] xl:text-[16px] mt-[35px]">
                     © 2020 Rose. All rights reserved.
