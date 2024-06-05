@@ -86,7 +86,7 @@
             <ul class=" py-4 flex flex-row mt-[9px] gap-[10px] sm:gap-[30px] text-white lg:text-[20px] xl:text-[23px] sm:text-[14px] wrapper w-[19rem]">
                 <li class="item sm:ms-[35px] ms-[40px] lg:w-[3rem] lg:h-[3rem] xl:ms-[8px] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]"><a class="iconic lg:w-[3rem] lg:h-[3rem] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]" href="https://www.facebook.com/Rose.imex.2023?mibextid=ZbWKwL"><i class="icon fa-brands fa-facebook"></i></a></li>
                 <li class="item lg:w-[3rem] lg:h-[3rem] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]"><a class="iconic lg:w-[3rem] lg:h-[3rem] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]" href="viber://chat?number=%2B66988017134"><i class="icon fa-brands fa-viber"></i></a></li>
-                <li class="item lg:w-[3rem] lg:h-[3rem] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]"><a class="iconic lg:w-[3rem] lg:h-[3rem] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]" href="line://ti/p/npgmg"><i class="icon fa-brands fa-line"></i></a></li>
+                <li class="item lg:w-[3rem] lg:h-[3rem] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]"><a class="iconic lg:w-[3rem] lg:h-[3rem] xl:w-[3rem] w-[2rem] xl:h-[3rem] h-[2rem]" href="line://ti/p/npgmg" target="_blank"><i class="icon fa-brands fa-line"></i></a></li>
             </ul>
         </div>
         </div>
