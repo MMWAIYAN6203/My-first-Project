@@ -46,10 +46,10 @@
     <x-founder></x-founder>
     <!-- core -->
     <div class="relative">
-      <img class="w-full xl:h-[68vh] lg:h-[45vh] md:h-[50vh] sm:h-[50vh] h-[40vh] opacity-50" src="/images/history.jpg" alt="">
+      <img class="w-full xl:h-[68vh] lg:h-[45vh] md:h-[50vh] sm:h-[50vh] h-[200px] opacity-50" src="/images/history.jpg" alt="">
       <div class="absolute inset-0 z-[1] my-[2vh] text-black mx-auto  lg:mt-[30px] sm:mt-[-10px] mt-[-30px] md:mt-[10px]">
-        <h1 class="text-center font-bold xl:text-2xl lg:text-2xl md:text-xl sm:text-xl text-md py-3">{{__ ("Our History") }}</h1>
-        <p class="text-[9px] font-semibold w-[45vh] xl:text-[18px] lg:text-[16px] lg:w-[90vh] md:text-[13px] md:w-[90vh] sm:text-[12px] sm:w-[90vh] m-auto leading-[2] ">
+        <h1 class="text-center font-bold xl:text-2xl lg:text-2xl md:text-xl sm:text-xl text-md py-2">{{__ ("Our History") }}</h1>
+        <p class="text-[9px] font-semibold p-4 xl:text-[18px] lg:text-[16px] lg:w-[90vh] md:text-[13px] md:w-[90vh] sm:text-[12px] sm:w-[90vh] m-auto leading-[2] ">
           {{ __("We, Rose Export Import Co., Ltd was established in 2020. For the first time, we delivered some containers from Lanchabang Port to Mae Sot Mae Sot to Myawaddy smoothly. There were only 2 warehouses in Yangon and Myawaddy in 2020. We implemented according to our core and got the customer's satisfaction feedback. By 2022, we have expanded to 3 warehouses with one office each in Yangon and Myawaddy. With the trust of customers, I was able to grow my business and expand to a total of 6 warehouses and a large number of transport trucks. In addition, in 2023, the head office was expanded and built in Mae Sot, Thailand. So now, due to my hard work and the trust of you guys, I will be called Rose in the import and export company and have achieved success.") }}
         </p>
       </div>

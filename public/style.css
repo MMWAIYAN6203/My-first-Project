@@ -777,6 +777,10 @@ body {
         font-size: 7px; /* Normal font size */
     }
 
+    .card2 {
+        min-width:  ;
+    }
+
     p.large-font {
         font-size: 10px; /* Larger font size for specific language */
     }
@@ -800,4 +804,20 @@ body {
     p.large-font {
         font-size: 21px; /* Larger font size for specific language */
     }
+}
+
+/* bg-image-for-contactus */
+.bg {
+    background-image: url(/images/herosection.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+@media (min-width: 400px) {
+    p.normal-font {
+        font-size: px; /* Normal font size */
+    }
+
+    
 }

@@ -8,20 +8,14 @@
     <link class="rounded-full" rel="stylesheet" href="/style.css" />
     <!-- Link Swiper's CSS -->
     <link rel="icon" href="/images/Rose logo.jpg">
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     @vite('resources/css/app.css')
     <title>{{ $title ? "Rose | $title" : 'Rose' }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         :root {
             --nav-color: #07182e;
@@ -76,18 +70,19 @@
         body {
             background-color: whitesmoke;
         }
-        
     </style>
 </head>
 
+@if (!request()->routeIs('contactus'))
 
-<body class="font-[Poppins] ">
+<body class="font-[Poppins]">
+    @endif
     <x-navbar />
 
     {{ $slot }}
 
     @if (!request()->routeIs('contactus'))
-        <x-footer />
+    <x-footer />
     @endif
 </body>
 
