@@ -3,7 +3,7 @@
       About Us
     </x-slot:title>
     <div class="">
-      <img class="w-full h-[30vh] md:w-full md:h-[50vh] lg:w-full lg:h-[50vh] xl:w-full xl:h-[65vh] object-fill rounded-lg shadow-md shadow-black " src="/images/Logistic1.jpg" alt="">
+      <img class="w-full h-[30vh] md:w-full md:h-[50vh] lg:w-full lg:h-[50vh] xl:w-full xl:h-[65vh] object-fill rounded-b-lg shadow-md shadow-black " src="/images/Logistic1.jpg" alt="">
       <h1 class="text-xl xl:text-[36px] lg:text-[2.6rem] md:text-[2rem] sm:text-3xl text-center my-[30px] font-semibold pb-[40px] text-[color:var(--nav-color)]"> {{ __("About Us") }} </h1>
     </div>
     <div class="flex flex-row gap-[15px] md:gap-[20px] lg:gap-[20px] xl:gap-[20px]  justify-evenly">
@@ -46,7 +46,7 @@
     <x-founder></x-founder>
     <!-- core -->
     <div class="relative">
-      <img class="w-full xl:h-[68vh] lg:h-[45vh] md:h-[45vh] sm:h-[50vh] opacity-50" src="/images/history.jpg" alt="">
+      <img class="w-full xl:h-[68vh] lg:h-[45vh] md:h-[50vh] sm:h-[50vh] h-[40vh] opacity-50" src="/images/history.jpg" alt="">
       <div class="absolute inset-0 z-[1] my-[2vh] text-black mx-auto  lg:mt-[30px] sm:mt-[-10px] mt-[-30px] md:mt-[10px]">
         <h1 class="text-center font-bold xl:text-2xl lg:text-2xl md:text-xl sm:text-xl text-md py-3">{{__ ("Our History") }}</h1>
         <p class="text-[9px] font-semibold w-[45vh] xl:text-[18px] lg:text-[16px] lg:w-[90vh] md:text-[13px] md:w-[90vh] sm:text-[12px] sm:w-[90vh] m-auto leading-[2] ">

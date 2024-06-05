@@ -4,7 +4,7 @@
     </x-slot:title>
 
     <div>
-        <img class="w-full h-[30vh] md:w-full md:h-[50vh] lg:w-full lg:h-[50vh] xl:w-full xl:h-[65vh] object-fill rounded-lg shadow-md shadow-black " src="/images/logistic.jpg" alt="">
+        <img class="w-full h-[30vh] md:w-full md:h-[50vh] lg:w-full lg:h-[50vh] xl:w-full xl:h-[65vh] object-fill rounded-b-lg shadow-md shadow-black " src="/images/logistic.jpg" alt="">
         <h1 class="text-xl xl:text-[36px] lg:text-[2.6rem] md:text-[2rem] text-center my-[30px] font-semibold">{{ __("Our Services") }}</h1>
     </div>
     <!-- Transit -->
