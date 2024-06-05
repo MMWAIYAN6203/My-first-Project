@@ -4,7 +4,7 @@
     </x-slot:title>
 
     <div>
-        <img class="xl:w-full xl:h-[70vh] object-fill rounded-lg shadow-md shadow-black " src="/images/logistic.jpg" alt="">
+        <img class="w-full h-[30vh] md:w-full md:h-[50vh] lg:w-full lg:h-[50vh] xl:w-full xl:h-[65vh] object-fill rounded-lg shadow-md shadow-black " src="/images/logistic.jpg" alt="">
         <h1 class="text-xl xl:text-[36px] lg:text-[2.6rem] md:text-[2rem] text-center my-[30px] font-semibold">{{ __("Our Services") }}</h1>
     </div>
     <!-- Transit -->
@@ -20,7 +20,7 @@
                     </p>
                 </div>
             </div>
-            <!-- <img class=" w-[30vh] h-[28vh] xl:w-[67vh] xl:h-[35vh] lg:w-[50vh] lg:h-[vh] md:w-[50vh] md:h-[35vh] sm:w-[45vh] sm:h-[35vh] object-fill rounded-xl " src="/images/Transit_container.jpg" alt=""> -->
+            
         </div>
         <!-- <img class=" w-[33vh] h-[28vh] xl:w-[67vh] xl:h-[35vh] lg:w-[50vh] lg:h-[vh] md:w-[50vh] md:h-[35vh] sm:w-[45vh] sm:h-[35vh] object-fill rounded-xl ms-[15vh] xl:ms-[47vh] xl:mt-[-35px] lg:ms-[40vh] lg:mt-[-45px]  md:ms-[39vh] mt-[-45px] ms-[20vh]  z-[-1]" src="/images/Transit_container.jpg" alt=""> -->
     </div>
