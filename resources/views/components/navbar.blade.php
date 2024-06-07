@@ -9,7 +9,7 @@
         <div
             class="nav-links my duration-500 md:static fixed bg-[color:var(--nav-color)] z-[4] md:min-h-fit min-h-full left-0 top-[-120%] md:w-auto  w-full flex items-center px-5">
             <ul
-                class="text-white flex md:flex-row flex-col m-auto md:items-center md:gap-[4vw] gap-5 text-[18px] mt-[120px] md:mt-[0px] lg:mt-[0px] xl:mt-[0px] xl:text-[22px] md:text-[11px] lg:text-[18px]">
+                class="text-white flex md:flex-row flex-col m-auto md:items-center md:gap-[4vw] gap-5 text-[18px] mt-[120px] md:mt-[0px] lg:mt-[0px] xl:mt-[0px] xl:text-[20px] md:text-[14px] lg:text-[18px]">
 
 
                 <li class="">
@@ -43,7 +43,7 @@
             <div id='localSelector'
                 class="text-white relative md:py-5 md:px-7 py-4 px-5 rounded-lg bg-[color:var(--nav-color)] cursor-pointer">
                 <div class='flex flex-row items-center gap-4'>
-                    <span class="select-none text-[12px] xl:text-[22px] md:text-[11px] lg:text-[18px]">{{ __('Language') }}</span>
+                    <span class="select-none text-[12px] xl:text-[20px] md:text-[14px] lg:text-[18px]">{{ __('Language') }}</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-6">
 

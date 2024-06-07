@@ -1,6 +1,6 @@
 <x-layout>
     <x-slot:title>
-        Blog Detail
+        {{ __("Blog Detail") }}
     </x-slot:title>
     <div class="max-w-xl mx-auto">
         <h1

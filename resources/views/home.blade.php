@@ -1,6 +1,6 @@
 <x-layout>
     <x-slot:title>
-        Home
+        {{ __("Home") }}
     </x-slot:title>
     <!-- Hero Section -->
     <!-- Hero Section -->
@@ -77,7 +77,7 @@
 
     <!-- About intro -->
 
-    <div class="flex flex-row gap-2 lg:gap-4 sm:gap-3 sm w-full justify-center lg:text-lg">
+    <div class="flex flex-row gap-2 mx-2 lg:gap-4 sm:gap-3 sm w-full justify-center lg:text-lg">
         <div
             class="flex flex-col items-center lg:mt-[25px] md:mt-[25px] mt-[32px] xl:mt-[30px] w-[200px] sm:w-[300px] lg:w-[400px] lg:mt-[100px]">
             <h1 class="md:text-2xl xl:text-4xl text-center sm:py-3 text-[color:var(--nav-color)] font-semibold">

@@ -78,18 +78,26 @@
         body {
             background-color: whitesmoke;
         }
+
+        footer {
+            position: absolute;
+            /* Can be 'fixed' or 'absolute' depending on your needs */
+            bottom: auto;
+        }
     </style>
 </head>
 
+@if (!request()->routeIs('contactus'))
 
-<body class="font-[Poppins] ">
-    <x-navbar />
+    <body class="font-[Poppins]">
+@endif
+<x-navbar />
 
-    {{ $slot }}
+{{ $slot }}
 
-    @if (!request()->routeIs('contactus'))
-        <x-footer />
-    @endif
+@if (!request()->routeIs('contactus'))
+    <x-footer />
+@endif
 </body>
 
 </html>
